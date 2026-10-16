@@ -1,0 +1,90 @@
+id_brigadista,nome,id_unidade,setor,turno,data_ultimo_treinamento,data_validade,dias_para_vencimento,situacao
+BSB-B001,Vanessa Nunes Souza,BSB,Administrativo,Manhã,2026-04-07,2027-04-07,173,Válido
+BSB-B002,Gabriela Gomes Costa,BSB,Administrativo,Noite,2026-09-10,2027-09-10,329,Válido
+BSB-B003,Yasmin Oliveira Souza,BSB,Operações,Administrativo,2026-05-28,2027-05-28,224,Válido
+BSB-B004,Otávio Rocha Cardoso,BSB,Operações,Administrativo,2025-11-23,2026-11-23,38,Vence em até 60 dias
+BSB-B005,Leandro Silva Teixeira,BSB,Manutenção,Manhã,2026-09-06,2027-09-06,325,Válido
+BSB-B006,Bruno Freitas Martins,BSB,TI,Manhã,2026-06-13,2027-06-13,240,Válido
+BSB-B007,Tatiane Barbosa Moreira,BSB,Atendimento,Noite,2026-01-22,2027-01-22,98,Válido
+BSB-B008,Juliana Moreira Teixeira,BSB,Manutenção,Manhã,2025-10-20,2026-10-20,4,Vence em até 30 dias
+BSB-B009,Isabela Dias Costa,BSB,Operações,Noite,2026-03-27,2027-03-27,162,Válido
+BSB-B010,Priscila Oliveira Carvalho,BSB,TI,Noite,2026-06-07,2027-06-07,234,Válido
+BSB-B011,Isabela Gomes Vieira,BSB,Atendimento,Administrativo,2026-02-23,2027-02-23,130,Válido
+BSB-B012,Diego Carvalho Lopes,BSB,Atendimento,Tarde,2026-07-20,2027-07-20,277,Válido
+BSB-B013,Natália Cardoso Souza,BSB,Atendimento,Tarde,2026-04-14,2027-04-14,180,Válido
+BSB-B014,Rafael Cardoso Souza,BSB,Manutenção,Administrativo,2026-05-06,2027-05-06,202,Válido
+BSB-B015,Henrique Dias Cardoso,BSB,Atendimento,Manhã,2025-12-16,2026-12-16,61,Válido
+BSB-B016,Bruno Lopes Almeida,BSB,Administrativo,Noite,2025-11-03,2026-11-03,18,Vence em até 30 dias
+BSB-B017,Mariana Costa Nunes,BSB,Logística,Noite,2026-09-04,2027-09-04,323,Válido
+BSB-B018,Yasmin Souza Vieira,BSB,Manutenção,Noite,2026-06-12,2027-06-12,239,Válido
+BSB-B019,Tatiane Ferreira Ribeiro,BSB,Operações,Administrativo,2026-04-22,2027-04-22,188,Válido
+BSB-B020,Rodrigo Ferreira Carvalho,BSB,Logística,Administrativo,2025-08-27,2026-08-27,-50,Vencido
+BSB-B021,Rodrigo Rocha Freitas,BSB,TI,Tarde,2026-09-14,2027-09-14,333,Válido
+BSB-B022,Vanessa Rodrigues Cardoso,BSB,Operações,Administrativo,2025-09-30,2026-09-30,-16,Vencido
+BSB-B023,Rafael Lopes Rodrigues,BSB,Administrativo,Manhã,2025-10-22,2026-10-22,6,Vence em até 30 dias
+BSB-B024,Leandro Gomes Teixeira,BSB,Atendimento,Noite,2025-10-30,2026-10-30,14,Vence em até 30 dias
+BSB-B025,Wesley Gomes Barbosa,BSB,Operações,Noite,2026-03-11,2027-03-11,146,Válido
+SP-B001,Wesley Martins Martins,SP,Atendimento,Manhã,2026-05-07,2027-05-07,203,Válido
+SP-B002,Bruno Almeida Teixeira,SP,Operações,Manhã,2026-04-21,2027-04-21,187,Válido
+SP-B003,Henrique Souza Araújo,SP,Logística,Tarde,2026-05-19,2027-05-19,215,Válido
+SP-B004,Karina Almeida Almeida,SP,TI,Tarde,2025-12-17,2026-12-17,62,Válido
+SP-B005,Eduarda Vieira Carvalho,SP,Administrativo,Noite,2025-12-05,2026-12-05,50,Vence em até 60 dias
+SP-B006,Eduarda Freitas Ferreira,SP,Atendimento,Manhã,2025-12-17,2026-12-17,62,Válido
+SP-B007,Natália Gomes Rocha,SP,Manutenção,Tarde,2026-07-05,2027-07-05,262,Válido
+SP-B008,Fábio Souza Carvalho,SP,TI,Tarde,2026-03-15,2027-03-15,150,Válido
+SP-B009,Wesley Ribeiro Silva,SP,Manutenção,Tarde,2026-05-19,2027-05-19,215,Válido
+SP-B010,Rafael Souza Moreira,SP,Administrativo,Manhã,2026-05-07,2027-05-07,203,Válido
+SP-B011,Thiago Teixeira Ribeiro,SP,Manutenção,Noite,2025-07-12,2026-07-12,-96,Vencido
+SP-B012,Yasmin Silva Ribeiro,SP,Atendimento,Manhã,2026-01-30,2027-01-30,106,Válido
+SP-B013,Lucas Ferreira Costa,SP,TI,Noite,2026-01-26,2027-01-26,102,Válido
+SP-B014,Natália Silva Ferreira,SP,Logística,Administrativo,2026-02-02,2027-02-02,109,Válido
+SP-B015,Leandro Teixeira Vieira,SP,Administrativo,Noite,2025-11-12,2026-11-12,27,Vence em até 30 dias
+SP-B016,Wesley Gomes Teixeira,SP,Manutenção,Manhã,2025-10-27,2026-10-27,11,Vence em até 30 dias
+SP-B017,Felipe Costa Lopes,SP,Atendimento,Noite,2026-08-19,2027-08-19,307,Válido
+SP-B018,Tatiane Vieira Lopes,SP,Manutenção,Administrativo,2025-09-03,2026-09-03,-43,Vencido
+SP-B019,Wesley Moreira Vieira,SP,Administrativo,Noite,2026-10-11,2027-10-11,360,Válido
+SP-B020,Ana Ribeiro Martins,SP,Administrativo,Manhã,2026-01-22,2027-01-22,98,Válido
+SP-B021,Gabriela Silva Oliveira,SP,Operações,Tarde,2025-07-18,2026-07-18,-90,Vencido
+SP-B022,Karina Teixeira Nunes,SP,Manutenção,Manhã,2026-02-26,2027-02-26,133,Válido
+SP-B023,Carla Moreira Barbosa,SP,Administrativo,Noite,2025-11-11,2026-11-11,26,Vence em até 30 dias
+SP-B024,Lucas Teixeira Dias,SP,Manutenção,Administrativo,2025-12-30,2026-12-30,75,Válido
+SP-B025,Natália Souza Vieira,SP,TI,Tarde,2026-08-07,2027-08-07,295,Válido
+SP-B026,Rodrigo Ribeiro Souza,SP,Manutenção,Noite,2025-09-23,2026-09-23,-23,Vencido
+SP-B027,Lucas Mendes Souza,SP,Administrativo,Manhã,2026-08-17,2027-08-17,305,Válido
+SP-B028,Isabela Mendes Nunes,SP,Administrativo,Manhã,2026-07-10,2027-07-10,267,Válido
+SP-B029,Priscila Barbosa Oliveira,SP,Logística,Manhã,2026-05-08,2027-05-08,204,Válido
+SP-B030,Gabriela Rodrigues Cardoso,SP,Administrativo,Manhã,2026-06-30,2027-06-30,257,Válido
+SP-B031,Caio Teixeira Moreira,SP,Manutenção,Manhã,2026-10-02,2027-10-02,351,Válido
+SP-B032,Karina Rocha Pereira,SP,Manutenção,Manhã,2026-06-19,2027-06-19,246,Válido
+SP-B033,Rodrigo Moreira Lopes,SP,Logística,Manhã,2025-12-17,2026-12-17,62,Válido
+SP-B034,Gabriela Costa Vieira,SP,Operações,Tarde,2026-04-24,2027-04-24,190,Válido
+SP-B035,Diego Rocha Ribeiro,SP,Operações,Noite,2026-04-19,2027-04-19,185,Válido
+GYN-B001,Priscila Almeida Lopes,GYN,Operações,Manhã,2026-04-10,2027-04-10,176,Válido
+GYN-B002,Felipe Vieira Oliveira,GYN,Manutenção,Manhã,2025-11-04,2026-11-04,19,Vence em até 30 dias
+GYN-B003,Otávio Martins Moreira,GYN,Logística,Administrativo,2025-09-28,2026-09-28,-18,Vencido
+GYN-B004,Fábio Cardoso Carvalho,GYN,Logística,Tarde,2026-08-25,2027-08-25,313,Válido
+GYN-B005,Sabrina Carvalho Araújo,GYN,TI,Administrativo,2025-11-04,2026-11-04,19,Vence em até 30 dias
+GYN-B006,Diego Rodrigues Ferreira,GYN,Atendimento,Administrativo,2026-08-26,2027-08-26,314,Válido
+GYN-B007,Diego Gomes Gomes,GYN,TI,Administrativo,2026-01-01,2027-01-01,77,Válido
+GYN-B008,Priscila Nunes Silva,GYN,Atendimento,Administrativo,2026-02-14,2027-02-14,121,Válido
+GYN-B009,Diego Araújo Moreira,GYN,Atendimento,Manhã,2025-12-14,2026-12-14,59,Vence em até 60 dias
+GYN-B010,Isabela Almeida Vieira,GYN,Manutenção,Tarde,2026-04-02,2027-04-02,168,Válido
+GYN-B011,Diego Lopes Barbosa,GYN,Atendimento,Noite,2025-12-20,2026-12-20,65,Válido
+GYN-B012,Mariana Barbosa Ferreira,GYN,Administrativo,Manhã,2026-01-18,2027-01-18,94,Válido
+BH-B001,Felipe Dias Rodrigues,BH,Operações,Manhã,2025-08-25,2026-08-25,-52,Vencido
+BH-B002,Vanessa Nunes Mendes,BH,Logística,Tarde,2026-08-23,2027-08-23,311,Válido
+BH-B003,Yasmin Moreira Pereira,BH,Manutenção,Administrativo,2025-12-18,2026-12-18,63,Válido
+BH-B004,Priscila Almeida Pereira,BH,TI,Tarde,2025-10-19,2026-10-19,3,Vence em até 30 dias
+BH-B005,Carla Carvalho Silva,BH,TI,Tarde,2025-12-04,2026-12-04,49,Vence em até 60 dias
+BH-B006,Henrique Freitas Gomes,BH,Manutenção,Noite,2026-10-13,2027-10-13,362,Válido
+BH-B007,Leandro Freitas Cardoso,BH,Atendimento,Noite,2026-06-07,2027-06-07,234,Válido
+BH-B008,Thiago Mendes Souza,BH,Administrativo,Manhã,2026-01-19,2027-01-19,95,Válido
+BH-B009,João Nunes Ribeiro,BH,Atendimento,Administrativo,2026-08-22,2027-08-22,310,Válido
+BH-B010,Carla Oliveira Ferreira,BH,Logística,Tarde,2026-04-25,2027-04-25,191,Válido
+BH-B011,Priscila Lopes Costa,BH,TI,Administrativo,2026-04-17,2027-04-17,183,Válido
+BH-B012,Karina Rodrigues Araújo,BH,Manutenção,Administrativo,2026-08-10,2027-08-10,298,Válido
+BH-B013,Diego Ribeiro Rocha,BH,Atendimento,Administrativo,2026-04-03,2027-04-03,169,Válido
+BH-B014,Bruno Gomes Teixeira,BH,Logística,Administrativo,2026-01-13,2027-01-13,89,Válido
+BH-B015,Rodrigo Mendes Freitas,BH,TI,Tarde,2026-06-04,2027-06-04,231,Válido
+BH-B016,Thiago Oliveira Costa,BH,TI,Administrativo,2025-10-22,2026-10-22,6,Vence em até 30 dias
+BH-B017,Otávio Silva Vieira,BH,Manutenção,Tarde,2025-09-19,2026-09-19,-27,Vencido

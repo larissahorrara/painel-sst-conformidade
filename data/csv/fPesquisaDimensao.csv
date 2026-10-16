@@ -1,0 +1,29 @@
+id_unidade,dimensao,nota_ciclo_anterior,nota_ciclo_atual,variacao
+BSB,Percepção de risco,8.45,8.33,-0.12
+BSB,Eficácia dos treinamentos,7.89,8.25,0.36
+BSB,Segurança psicológica,7.05,6.89,-0.16
+BSB,Liderança engajada em SST,7.52,7.31,-0.21
+BSB,Comunicação de riscos,7.41,8,0.59
+BSB,Adequação dos EPIs,7.63,8.34,0.71
+BSB,Confiança no canal de reporte,6.69,7.13,0.44
+SP,Percepção de risco,7.12,7.61,0.49
+SP,Eficácia dos treinamentos,6.44,6.93,0.49
+SP,Segurança psicológica,6.04,6.61,0.57
+SP,Liderança engajada em SST,6.51,7,0.49
+SP,Comunicação de riscos,7.36,7.28,-0.08
+SP,Adequação dos EPIs,7.44,7.45,0.01
+SP,Confiança no canal de reporte,6.33,6.33,0
+GYN,Percepção de risco,7.19,7.28,0.09
+GYN,Eficácia dos treinamentos,7.4,7.29,-0.11
+GYN,Segurança psicológica,5.49,6.16,0.67
+GYN,Liderança engajada em SST,6.98,6.82,-0.16
+GYN,Comunicação de riscos,6.81,6.72,-0.09
+GYN,Adequação dos EPIs,7.37,7.44,0.07
+GYN,Confiança no canal de reporte,5.81,5.6,-0.21
+BH,Percepção de risco,6.31,6.81,0.5
+BH,Eficácia dos treinamentos,6.11,6.55,0.44
+BH,Segurança psicológica,4.86,5.48,0.62
+BH,Liderança engajada em SST,6.09,6.22,0.13
+BH,Comunicação de riscos,6.65,6.52,-0.13
+BH,Adequação dos EPIs,6.46,6.95,0.49
+BH,Confiança no canal de reporte,5.34,5.81,0.47

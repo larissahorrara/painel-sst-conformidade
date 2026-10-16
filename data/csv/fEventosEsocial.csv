@@ -1,0 +1,13 @@
+id_unidade,evento,descricao,prazo_envio,enviados,pendentes,rejeitados
+BSB,S-2210,Comunicação de Acidente de Trabalho (CAT),Até o 1º dia útil após o acidente; imediato em caso de óbito,12,0,0
+BSB,S-2220,Monitoramento da saúde do trabalhador (ASO),Até o dia 15 do mês seguinte ao exame,973,4,1
+BSB,S-2240,Condições ambientais do trabalho (agentes nocivos),Até o dia 15 do mês seguinte ao início ou alteração,285,2,0
+SP,S-2210,Comunicação de Acidente de Trabalho (CAT),Até o 1º dia útil após o acidente; imediato em caso de óbito,19,0,0
+SP,S-2220,Monitoramento da saúde do trabalhador (ASO),Até o dia 15 do mês seguinte ao exame,1401,11,4
+SP,S-2240,Condições ambientais do trabalho (agentes nocivos),Até o dia 15 do mês seguinte ao início ou alteração,397,6,0
+GYN,S-2210,Comunicação de Acidente de Trabalho (CAT),Até o 1º dia útil após o acidente; imediato em caso de óbito,12,0,0
+GYN,S-2220,Monitoramento da saúde do trabalhador (ASO),Até o dia 15 do mês seguinte ao exame,515,5,2
+GYN,S-2240,Condições ambientais do trabalho (agentes nocivos),Até o dia 15 do mês seguinte ao início ou alteração,140,3,1
+BH,S-2210,Comunicação de Acidente de Trabalho (CAT),Até o 1º dia útil após o acidente; imediato em caso de óbito,17,1,0
+BH,S-2220,Monitoramento da saúde do trabalhador (ASO),Até o dia 15 do mês seguinte ao exame,694,10,3
+BH,S-2240,Condições ambientais do trabalho (agentes nocivos),Até o dia 15 do mês seguinte ao início ou alteração,189,5,2

@@ -1,0 +1,25 @@
+id_unidade,exame,programados,realizados,pct_realizado
+BSB,Audiometria,180,165,0.916667
+BSB,Hemograma completo,492,492,1
+BSB,Glicemia de jejum,328,324,0.987805
+BSB,Acuidade visual,246,239,0.971545
+BSB,Espirometria,164,137,0.835366
+BSB,Raio-X de tórax (padrão OIT),82,65,0.792683
+SP,Audiometria,633,543,0.85782
+SP,Hemograma completo,690,690,1
+SP,Glicemia de jejum,460,459,0.997826
+SP,Acuidade visual,345,319,0.924638
+SP,Espirometria,230,195,0.847826
+SP,Raio-X de tórax (padrão OIT),115,90,0.782609
+GYN,Audiometria,226,201,0.889381
+GYN,Hemograma completo,246,235,0.955285
+GYN,Glicemia de jejum,164,156,0.95122
+GYN,Acuidade visual,123,116,0.943089
+GYN,Espirometria,82,65,0.792683
+GYN,Raio-X de tórax (padrão OIT),41,32,0.780488
+BH,Audiometria,308,266,0.863636
+BH,Hemograma completo,336,321,0.955357
+BH,Glicemia de jejum,224,214,0.955357
+BH,Acuidade visual,168,153,0.910714
+BH,Espirometria,112,91,0.8125
+BH,Raio-X de tórax (padrão OIT),56,44,0.785714

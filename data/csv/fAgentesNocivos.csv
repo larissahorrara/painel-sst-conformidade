@@ -1,0 +1,21 @@
+id_unidade,agente,referencia_nr15,setores_expostos,trabalhadores_expostos,grau_insalubridade,medicoes_acima_limite,situacao_controle
+BSB,Ruído contínuo ou intermitente,Anexo 1,"Operações, Manutenção",36,Médio (20%),0,Controlado
+BSB,Calor,Anexo 3,"Manutenção, Logística",14,Médio (20%),0,Controlado
+BSB,Vibração,Anexo 8,Logística,10,Médio (20%),0,Controlado
+BSB,Hidrocarbonetos e óleos minerais,Anexo 13,Manutenção,14,Máximo (40%),0,Controlado
+BSB,Agentes biológicos,Anexo 14,Atendimento,12,Médio (20%),0,Controlado
+SP,Ruído contínuo ou intermitente,Anexo 1,"Operações, Manutenção",211,Médio (20%),0,Controlado
+SP,Calor,Anexo 3,"Manutenção, Logística",51,Médio (20%),0,Controlado
+SP,Vibração,Anexo 8,Logística,55,Médio (20%),0,Controlado
+SP,Hidrocarbonetos e óleos minerais,Anexo 13,Manutenção,58,Máximo (40%),0,Controlado
+SP,Agentes biológicos,Anexo 14,Atendimento,63,Médio (20%),0,Controlado
+GYN,Ruído contínuo ou intermitente,Anexo 1,"Operações, Manutenção",66,Médio (20%),0,Controlado
+GYN,Calor,Anexo 3,"Manutenção, Logística",15,Médio (20%),0,Controlado
+GYN,Vibração,Anexo 8,Logística,14,Médio (20%),0,Controlado
+GYN,Hidrocarbonetos e óleos minerais,Anexo 13,Manutenção,19,Máximo (40%),1,Em adequação
+GYN,Agentes biológicos,Anexo 14,Atendimento,17,Médio (20%),0,Controlado
+BH,Ruído contínuo ou intermitente,Anexo 1,"Operações, Manutenção",123,Médio (20%),1,Em adequação
+BH,Calor,Anexo 3,"Manutenção, Logística",29,Médio (20%),0,Controlado
+BH,Vibração,Anexo 8,Logística,20,Médio (20%),1,Em adequação
+BH,Hidrocarbonetos e óleos minerais,Anexo 13,Manutenção,31,Máximo (40%),0,Controlado
+BH,Agentes biológicos,Anexo 14,Atendimento,34,Médio (20%),0,Controlado

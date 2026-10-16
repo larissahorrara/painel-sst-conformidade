@@ -1,0 +1,4955 @@
+{
+  "hoje": "2026-10-16",
+  "unidades": [
+    {
+      "id": "bsb",
+      "nome": "Matriz – Brasília/DF",
+      "sigla": "BSB",
+      "colaboradores": 820,
+      "maturidade": 0.86,
+      "acidentesCAF": 3,
+      "acidentesSAF": 9,
+      "diasPerdidos": 41,
+      "diasSemAcidente": 128
+    },
+    {
+      "id": "sp",
+      "nome": "Filial São Paulo/SP",
+      "sigla": "SP",
+      "colaboradores": 1150,
+      "maturidade": 0.74,
+      "acidentesCAF": 5,
+      "acidentesSAF": 14,
+      "diasPerdidos": 97,
+      "diasSemAcidente": 47
+    },
+    {
+      "id": "gyn",
+      "nome": "Filial Goiânia/GO",
+      "sigla": "GYN",
+      "colaboradores": 410,
+      "maturidade": 0.66,
+      "acidentesCAF": 4,
+      "acidentesSAF": 8,
+      "diasPerdidos": 73,
+      "diasSemAcidente": 22
+    },
+    {
+      "id": "bh",
+      "nome": "Filial Belo Horizonte/MG",
+      "sigla": "BH",
+      "colaboradores": 560,
+      "maturidade": 0.55,
+      "acidentesCAF": 6,
+      "acidentesSAF": 12,
+      "diasPerdidos": 138,
+      "diasSemAcidente": 9
+    }
+  ],
+  "setores": [
+    "Administrativo",
+    "Operações",
+    "Manutenção",
+    "Logística",
+    "Atendimento",
+    "TI"
+  ],
+  "categorias": [
+    "Físico",
+    "Químico",
+    "Biológico",
+    "Ergonômico",
+    "Acidentes",
+    "Psicossociais"
+  ],
+  "turnos": [
+    "Manhã",
+    "Tarde",
+    "Noite",
+    "Administrativo"
+  ],
+  "dimensoes": [
+    "Percepção de risco",
+    "Eficácia dos treinamentos",
+    "Segurança psicológica",
+    "Liderança engajada em SST",
+    "Comunicação de riscos",
+    "Adequação dos EPIs",
+    "Confiança no canal de reporte"
+  ],
+  "gruposAfastamento": [
+    "Osteomuscular",
+    "Saúde mental",
+    "Acidente de trabalho",
+    "Respiratório",
+    "Outros"
+  ],
+  "horasAno": 1980,
+  "porUnidade": {
+    "bsb": {
+      "d": {
+        "unidades": [
+          {
+            "id": "bsb",
+            "nome": "Matriz – Brasília/DF",
+            "sigla": "BSB",
+            "colaboradores": 820,
+            "maturidade": 0.86,
+            "acidentesCAF": 3,
+            "acidentesSAF": 9,
+            "diasPerdidos": 41,
+            "diasSemAcidente": 128
+          }
+        ],
+        "colaboradores": 820,
+        "hht": 1623600,
+        "acidentesCAF": 3,
+        "acidentesSAF": 9,
+        "diasPerdidos": 41,
+        "diasSemAcidente": 128,
+        "mensalCAF": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mensalSAF": [
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          1
+        ],
+        "brigadistas": [
+          {
+            "id": "BSB-B001",
+            "nome": "Vanessa Nunes Souza",
+            "unidade": "BSB",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2026-04-07",
+            "validade": "2027-04-07"
+          },
+          {
+            "id": "BSB-B002",
+            "nome": "Gabriela Gomes Costa",
+            "unidade": "BSB",
+            "setor": "Administrativo",
+            "turno": "Noite",
+            "treinamento": "2026-09-10",
+            "validade": "2027-09-10"
+          },
+          {
+            "id": "BSB-B003",
+            "nome": "Yasmin Oliveira Souza",
+            "unidade": "BSB",
+            "setor": "Operações",
+            "turno": "Administrativo",
+            "treinamento": "2026-05-28",
+            "validade": "2027-05-28"
+          },
+          {
+            "id": "BSB-B004",
+            "nome": "Otávio Rocha Cardoso",
+            "unidade": "BSB",
+            "setor": "Operações",
+            "turno": "Administrativo",
+            "treinamento": "2025-11-23",
+            "validade": "2026-11-23"
+          },
+          {
+            "id": "BSB-B005",
+            "nome": "Leandro Silva Teixeira",
+            "unidade": "BSB",
+            "setor": "Manutenção",
+            "turno": "Manhã",
+            "treinamento": "2026-09-06",
+            "validade": "2027-09-06"
+          },
+          {
+            "id": "BSB-B006",
+            "nome": "Bruno Freitas Martins",
+            "unidade": "BSB",
+            "setor": "TI",
+            "turno": "Manhã",
+            "treinamento": "2026-06-13",
+            "validade": "2027-06-13"
+          },
+          {
+            "id": "BSB-B007",
+            "nome": "Tatiane Barbosa Moreira",
+            "unidade": "BSB",
+            "setor": "Atendimento",
+            "turno": "Noite",
+            "treinamento": "2026-01-22",
+            "validade": "2027-01-22"
+          },
+          {
+            "id": "BSB-B008",
+            "nome": "Juliana Moreira Teixeira",
+            "unidade": "BSB",
+            "setor": "Manutenção",
+            "turno": "Manhã",
+            "treinamento": "2025-10-20",
+            "validade": "2026-10-20"
+          },
+          {
+            "id": "BSB-B009",
+            "nome": "Isabela Dias Costa",
+            "unidade": "BSB",
+            "setor": "Operações",
+            "turno": "Noite",
+            "treinamento": "2026-03-27",
+            "validade": "2027-03-27"
+          },
+          {
+            "id": "BSB-B010",
+            "nome": "Priscila Oliveira Carvalho",
+            "unidade": "BSB",
+            "setor": "TI",
+            "turno": "Noite",
+            "treinamento": "2026-06-07",
+            "validade": "2027-06-07"
+          },
+          {
+            "id": "BSB-B011",
+            "nome": "Isabela Gomes Vieira",
+            "unidade": "BSB",
+            "setor": "Atendimento",
+            "turno": "Administrativo",
+            "treinamento": "2026-02-23",
+            "validade": "2027-02-23"
+          },
+          {
+            "id": "BSB-B012",
+            "nome": "Diego Carvalho Lopes",
+            "unidade": "BSB",
+            "setor": "Atendimento",
+            "turno": "Tarde",
+            "treinamento": "2026-07-20",
+            "validade": "2027-07-20"
+          },
+          {
+            "id": "BSB-B013",
+            "nome": "Natália Cardoso Souza",
+            "unidade": "BSB",
+            "setor": "Atendimento",
+            "turno": "Tarde",
+            "treinamento": "2026-04-14",
+            "validade": "2027-04-14"
+          },
+          {
+            "id": "BSB-B014",
+            "nome": "Rafael Cardoso Souza",
+            "unidade": "BSB",
+            "setor": "Manutenção",
+            "turno": "Administrativo",
+            "treinamento": "2026-05-06",
+            "validade": "2027-05-06"
+          },
+          {
+            "id": "BSB-B015",
+            "nome": "Henrique Dias Cardoso",
+            "unidade": "BSB",
+            "setor": "Atendimento",
+            "turno": "Manhã",
+            "treinamento": "2025-12-16",
+            "validade": "2026-12-16"
+          },
+          {
+            "id": "BSB-B016",
+            "nome": "Bruno Lopes Almeida",
+            "unidade": "BSB",
+            "setor": "Administrativo",
+            "turno": "Noite",
+            "treinamento": "2025-11-03",
+            "validade": "2026-11-03"
+          },
+          {
+            "id": "BSB-B017",
+            "nome": "Mariana Costa Nunes",
+            "unidade": "BSB",
+            "setor": "Logística",
+            "turno": "Noite",
+            "treinamento": "2026-09-04",
+            "validade": "2027-09-04"
+          },
+          {
+            "id": "BSB-B018",
+            "nome": "Yasmin Souza Vieira",
+            "unidade": "BSB",
+            "setor": "Manutenção",
+            "turno": "Noite",
+            "treinamento": "2026-06-12",
+            "validade": "2027-06-12"
+          },
+          {
+            "id": "BSB-B019",
+            "nome": "Tatiane Ferreira Ribeiro",
+            "unidade": "BSB",
+            "setor": "Operações",
+            "turno": "Administrativo",
+            "treinamento": "2026-04-22",
+            "validade": "2027-04-22"
+          },
+          {
+            "id": "BSB-B020",
+            "nome": "Rodrigo Ferreira Carvalho",
+            "unidade": "BSB",
+            "setor": "Logística",
+            "turno": "Administrativo",
+            "treinamento": "2025-08-27",
+            "validade": "2026-08-27"
+          },
+          {
+            "id": "BSB-B021",
+            "nome": "Rodrigo Rocha Freitas",
+            "unidade": "BSB",
+            "setor": "TI",
+            "turno": "Tarde",
+            "treinamento": "2026-09-14",
+            "validade": "2027-09-14"
+          },
+          {
+            "id": "BSB-B022",
+            "nome": "Vanessa Rodrigues Cardoso",
+            "unidade": "BSB",
+            "setor": "Operações",
+            "turno": "Administrativo",
+            "treinamento": "2025-09-30",
+            "validade": "2026-09-30"
+          },
+          {
+            "id": "BSB-B023",
+            "nome": "Rafael Lopes Rodrigues",
+            "unidade": "BSB",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2025-10-22",
+            "validade": "2026-10-22"
+          },
+          {
+            "id": "BSB-B024",
+            "nome": "Leandro Gomes Teixeira",
+            "unidade": "BSB",
+            "setor": "Atendimento",
+            "turno": "Noite",
+            "treinamento": "2025-10-30",
+            "validade": "2026-10-30"
+          },
+          {
+            "id": "BSB-B025",
+            "nome": "Wesley Gomes Barbosa",
+            "unidade": "BSB",
+            "setor": "Operações",
+            "turno": "Noite",
+            "treinamento": "2026-03-11",
+            "validade": "2027-03-11"
+          }
+        ],
+        "brigadistasExigidos": 23,
+        "equipamentos": [
+          {
+            "codigo": "BSB-EXT-001",
+            "item": "Extintor PQS ABC 6 kg",
+            "categoria": "Extintor",
+            "local": "Almoxarifado",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2027-05-21"
+          },
+          {
+            "codigo": "BSB-EXT-002",
+            "item": "Extintor PQS ABC 6 kg",
+            "categoria": "Extintor",
+            "local": "Sala de servidores",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2027-07-07"
+          },
+          {
+            "codigo": "BSB-EXT-003",
+            "item": "Extintor CO₂ 6 kg",
+            "categoria": "Extintor",
+            "local": "Bloco A – térreo",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2027-09-24"
+          },
+          {
+            "codigo": "BSB-EXT-004",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Oficina de manutenção",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2027-04-18"
+          },
+          {
+            "codigo": "BSB-EXT-005",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Recepção",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2026-09-29"
+          },
+          {
+            "codigo": "BSB-EXT-006",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Bloco A – térreo",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2027-03-07"
+          },
+          {
+            "codigo": "BSB-HID-001",
+            "item": "Mangueira de hidrante 15 m",
+            "categoria": "Hidrante",
+            "local": "Recepção",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2027-04-30"
+          },
+          {
+            "codigo": "BSB-EPI-001",
+            "item": "Máscara PFF2 (lote)",
+            "categoria": "EPI",
+            "local": "Almoxarifado",
+            "unidade": "BSB",
+            "quantidade": 250,
+            "validade": "2027-08-31"
+          },
+          {
+            "codigo": "BSB-EPI-002",
+            "item": "Luva nitrílica (lote)",
+            "categoria": "EPI",
+            "local": "Bloco B – operação",
+            "unidade": "BSB",
+            "quantidade": 270,
+            "validade": "2027-02-09"
+          },
+          {
+            "codigo": "BSB-EPI-003",
+            "item": "Protetor auricular tipo plug (lote)",
+            "categoria": "EPI",
+            "local": "Bloco A – 1º andar",
+            "unidade": "BSB",
+            "quantidade": 380,
+            "validade": "2028-02-22"
+          },
+          {
+            "codigo": "BSB-EPI-004",
+            "item": "Capacete de segurança classe B",
+            "categoria": "EPI",
+            "local": "Bloco A – 1º andar",
+            "unidade": "BSB",
+            "quantidade": 80,
+            "validade": "2026-12-22"
+          },
+          {
+            "codigo": "BSB-EPI-005",
+            "item": "Óculos de proteção incolor (lote)",
+            "categoria": "EPI",
+            "local": "Bloco A – 1º andar",
+            "unidade": "BSB",
+            "quantidade": 280,
+            "validade": "2026-11-12"
+          },
+          {
+            "codigo": "BSB-EPI-006",
+            "item": "Cinto paraquedista com talabarte",
+            "categoria": "EPI",
+            "local": "Oficina de manutenção",
+            "unidade": "BSB",
+            "quantidade": 120,
+            "validade": "2027-01-14"
+          },
+          {
+            "codigo": "BSB-KIT-001",
+            "item": "Kit de primeiros socorros",
+            "categoria": "Kit",
+            "local": "Recepção",
+            "unidade": "BSB",
+            "quantidade": 3,
+            "validade": "2027-05-20"
+          },
+          {
+            "codigo": "BSB-KIT-002",
+            "item": "Kit de contenção de derramamento",
+            "categoria": "Kit",
+            "local": "Almoxarifado",
+            "unidade": "BSB",
+            "quantidade": 4,
+            "validade": "2027-02-09"
+          },
+          {
+            "codigo": "BSB-EMG-001",
+            "item": "Eletrodos do desfibrilador (DEA)",
+            "categoria": "Emergência",
+            "local": "Bloco A – térreo",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2026-11-17"
+          },
+          {
+            "codigo": "BSB-EMG-002",
+            "item": "Luminária de emergência (bateria)",
+            "categoria": "Emergência",
+            "local": "Recepção",
+            "unidade": "BSB",
+            "quantidade": 1,
+            "validade": "2027-05-29"
+          }
+        ],
+        "documentos": [
+          {
+            "codigo": "PGR",
+            "nome": "Programa de Gerenciamento de Riscos",
+            "tipo": "Programa",
+            "norma": "NR-1",
+            "unidade": "BSB",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Bienal ou por mudança no processo",
+            "ultimaRevisao": "2025-02-10",
+            "proximaRevisao": "2027-02-10",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "PCMSO",
+            "nome": "Programa de Controle Médico de Saúde Ocupacional",
+            "tipo": "Programa",
+            "norma": "NR-7",
+            "unidade": "BSB",
+            "responsavel": "Médico do Trabalho",
+            "periodicidade": "Anual (relatório analítico)",
+            "ultimaRevisao": "2026-04-06",
+            "proximaRevisao": "2027-04-06",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "LTCAT",
+            "nome": "Laudo Técnico das Condições Ambientais do Trabalho",
+            "tipo": "Laudo",
+            "norma": "Lei 8.213/91 · NR-15",
+            "unidade": "BSB",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Anual ou por mudança no ambiente",
+            "ultimaRevisao": "2026-06-24",
+            "proximaRevisao": "2027-06-24",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "AET",
+            "nome": "Análise Ergonômica do Trabalho",
+            "tipo": "Laudo",
+            "norma": "NR-17",
+            "unidade": "BSB",
+            "responsavel": "Ergonomista",
+            "periodicidade": "Bienal",
+            "ultimaRevisao": "2024-10-29",
+            "proximaRevisao": "2026-10-29",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "PAE",
+            "nome": "Plano de Atendimento a Emergências",
+            "tipo": "Plano",
+            "norma": "NR-23",
+            "unidade": "BSB",
+            "responsavel": "Coord. da Brigada",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-12-22",
+            "proximaRevisao": "2026-12-22",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-01",
+            "nome": "Investigação e análise de acidentes",
+            "tipo": "POP",
+            "norma": "NR-1",
+            "unidade": "BSB",
+            "responsavel": "Téc. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-12-21",
+            "proximaRevisao": "2026-12-21",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-02",
+            "nome": "Entrega, guarda e substituição de EPI",
+            "tipo": "POP",
+            "norma": "NR-6",
+            "unidade": "BSB",
+            "responsavel": "Téc. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-12-07",
+            "proximaRevisao": "2026-12-07",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-03",
+            "nome": "Inspeção mensal de extintores e hidrantes",
+            "tipo": "POP",
+            "norma": "NR-23",
+            "unidade": "BSB",
+            "responsavel": "Coord. da Brigada",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-07-26",
+            "proximaRevisao": "2027-07-26",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-04",
+            "nome": "Emissão de CAT e envio ao eSocial (S-2210)",
+            "tipo": "POP",
+            "norma": "eSocial",
+            "unidade": "BSB",
+            "responsavel": "Gestão de Pessoas",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-10-27",
+            "proximaRevisao": "2026-10-27",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "FLX-SST-01",
+            "nome": "Fluxo de exames ocupacionais (ASO)",
+            "tipo": "Fluxo",
+            "norma": "NR-7",
+            "unidade": "BSB",
+            "responsavel": "Medicina do Trabalho",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-11-30",
+            "proximaRevisao": "2026-11-30",
+            "fluxo": "Em revisão",
+            "progresso": 57
+          },
+          {
+            "codigo": "FLX-SST-02",
+            "nome": "Fluxo de permissão para trabalho de risco",
+            "tipo": "Fluxo",
+            "norma": "NR-10 / NR-35",
+            "unidade": "BSB",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-05-20",
+            "proximaRevisao": "2027-05-20",
+            "fluxo": "Em revisão",
+            "progresso": 44
+          }
+        ],
+        "riscos": {
+          "Administrativo": [
+            1,
+            0,
+            0,
+            5,
+            1,
+            4
+          ],
+          "Operações": [
+            5,
+            3,
+            1,
+            3,
+            4,
+            3
+          ],
+          "Manutenção": [
+            6,
+            4,
+            1,
+            2,
+            5,
+            1
+          ],
+          "Logística": [
+            2,
+            1,
+            0,
+            5,
+            4,
+            1
+          ],
+          "Atendimento": [
+            1,
+            0,
+            4,
+            2,
+            1,
+            4
+          ],
+          "TI": [
+            1,
+            0,
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        "pesquisa": {
+          "dimensoes": [
+            {
+              "nome": "Percepção de risco",
+              "atual": 8.333269017562271,
+              "anterior": 8.454278421681375
+            },
+            {
+              "nome": "Eficácia dos treinamentos",
+              "atual": 8.245272635668517,
+              "anterior": 7.885158745641821
+            },
+            {
+              "nome": "Segurança psicológica",
+              "atual": 6.889952266588807,
+              "anterior": 7.045398255297914
+            },
+            {
+              "nome": "Liderança engajada em SST",
+              "atual": 7.311085050180554,
+              "anterior": 7.517498284275644
+            },
+            {
+              "nome": "Comunicação de riscos",
+              "atual": 7.998758784122765,
+              "anterior": 7.409522444778123
+            },
+            {
+              "nome": "Adequação dos EPIs",
+              "atual": 8.339564119838178,
+              "anterior": 7.632905558007769
+            },
+            {
+              "nome": "Confiança no canal de reporte",
+              "atual": 7.129689974710345,
+              "anterior": 6.687711930810474
+            }
+          ],
+          "porSetor": {
+            "Administrativo": 8.051599792018534,
+            "Operações": 7.610626728460193,
+            "Manutenção": 7.830146392434836,
+            "Logística": 7.167983141168952,
+            "Atendimento": 7.590143262408675,
+            "TI": 8.35650858785957
+          },
+          "respondentes": 718,
+          "tendencia": [
+            6.912449952284806,
+            7.2212342622689905,
+            7.518924805784731,
+            7.749655978381634
+          ]
+        },
+        "indicadores": {
+          "conformidadeNR1": 90.57692415602506,
+          "trustIndex": 74.40288684980943,
+          "horasTreinamento": 13.771544572338462,
+          "ncsAbertas": 2,
+          "investigacoesNoPrazo": 91.53409236513079,
+          "absenteismo": 2.448632180724293,
+          "turnover": 9.17582890002057
+        }
+      },
+      "k": {
+        "tf": 1.8477457501847745,
+        "tg": 25.252525252525253,
+        "conformidadeNR1": 90.57692415602506,
+        "brigadistasAtivos": 23,
+        "indiceBrigada": 100,
+        "notaPercepcao": 7.749655978381634,
+        "notaAnterior": 7.518924805784731,
+        "participacao": 87.5609756097561,
+        "equipVencidos": 1,
+        "equipCriticos": 1,
+        "docsVencidos": 0,
+        "docsVigentesPct": 100
+      },
+      "metricas": [
+        {
+          "id": "trust",
+          "nome": "Trust Index (% de respostas favoráveis)",
+          "valor": 74.40288684980943,
+          "meta": 70,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "GPTW"
+          ],
+          "casas": 1,
+          "bloqueante": [
+            "GPTW"
+          ],
+          "sugestao": "Divulgar o resultado por área em até 30 dias, construir planos de ação com as próprias equipes e priorizar os temas de menor favorabilidade, como reconhecimento, imparcialidade e comunicação da liderança."
+        },
+        {
+          "id": "psi",
+          "nome": "Segurança psicológica (nota da pesquisa)",
+          "valor": 6.889952266588807,
+          "meta": 7.5,
+          "unidade": "",
+          "sentido": "maior",
+          "selos": [
+            "GPTW",
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Incluir os fatores de risco psicossociais no inventário do PGR, capacitar as lideranças em escuta ativa e garantir anonimato e devolutiva no canal de reporte."
+        },
+        {
+          "id": "nr1",
+          "nome": "Conformidade NR-1 / GRO",
+          "valor": 90.57692415602506,
+          "meta": 90,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Tratar os itens não conformes do checklist do GRO por ordem de risco, atualizar o plano de ação do PGR com responsáveis e prazos e registrar as evidências de implementação."
+        },
+        {
+          "id": "tf",
+          "nome": "Taxa de frequência de acidentes com afastamento",
+          "valor": 1.8477457501847745,
+          "meta": 3,
+          "unidade": "",
+          "sentido": "menor",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 2,
+          "sugestao": "Reforçar a análise de causa raiz dos acidentes, ampliar as inspeções comportamentais nos setores de maior exposição e revisar as permissões para trabalho de risco."
+        },
+        {
+          "id": "horas",
+          "nome": "Horas de treinamento em SST por colaborador/ano",
+          "valor": 13.771544572338462,
+          "meta": 12,
+          "unidade": "h",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG",
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Montar trilha anual obrigatória por função, com integração, NRs aplicáveis e reciclagens em formatos curtos, e acompanhar a presença por unidade."
+        },
+        {
+          "id": "ncs",
+          "nome": "Não conformidades abertas na auditoria interna de SST",
+          "valor": 2,
+          "meta": 3,
+          "unidade": "",
+          "sentido": "menor",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 0,
+          "sugestao": "Fazer mutirão de tratamento das não conformidades com análise de causa, definir responsável e prazo para cada uma e verificar a eficácia antes da auditoria externa."
+        },
+        {
+          "id": "invest",
+          "nome": "Investigações de incidentes concluídas no prazo",
+          "valor": 91.53409236513079,
+          "meta": 90,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 1,
+          "sugestao": "Padronizar o prazo no POP de investigação de acidentes, automatizar lembretes e envolver a CIPA e os trabalhadores na análise."
+        },
+        {
+          "id": "abs",
+          "nome": "Taxa de absenteísmo",
+          "valor": 2.448632180724293,
+          "meta": 3,
+          "unidade": "%",
+          "sentido": "menor",
+          "selos": [
+            "ESG",
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Analisar os afastamentos por setor e por causa com os dados agregados do PCMSO e concentrar as ações de saúde onde a incidência é maior."
+        },
+        {
+          "id": "part",
+          "nome": "Participação na pesquisa de clima de segurança",
+          "valor": 87.5609756097561,
+          "meta": 75,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Ampliar a janela de coleta, oferecer acesso pelo celular e por totens às equipes operacionais e reforçar a garantia de confidencialidade."
+        },
+        {
+          "id": "brig",
+          "nome": "Brigadistas com treinamento válido",
+          "valor": 100,
+          "meta": 95,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 1,
+          "sugestao": "Agendar a reciclagem imediata dos brigadistas vencidos e recrutar voluntários nos turnos com menor cobertura."
+        },
+        {
+          "id": "turn",
+          "nome": "Turnover voluntário (12 meses)",
+          "valor": 9.17582890002057,
+          "meta": 12,
+          "unidade": "%",
+          "sentido": "menor",
+          "selos": [
+            "GPTW",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Aplicar entrevistas de desligamento estruturadas e cruzar os motivos de saída com os resultados da pesquisa de clima."
+        },
+        {
+          "id": "docs",
+          "nome": "Documentos de SST vigentes",
+          "valor": 100,
+          "meta": 100,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Priorizar a revisão dos documentos vencidos e manter calendário de revisões com alerta automático 90 dias antes do prazo."
+        }
+      ],
+      "med": {
+        "grauRisco": "2",
+        "sesmt": [
+          {
+            "funcao": "Técnico de Segurança do Trabalho",
+            "exigido": 2,
+            "existente": 2
+          },
+          {
+            "funcao": "Engenheiro de Segurança do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          },
+          {
+            "funcao": "Aux./Téc. de Enfermagem do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          },
+          {
+            "funcao": "Enfermeiro do Trabalho",
+            "exigido": 0,
+            "existente": 0
+          },
+          {
+            "funcao": "Médico do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          }
+        ],
+        "asos": [
+          {
+            "tipo": "Admissional",
+            "noPrazo": 82,
+            "foraDoPrazo": 1
+          },
+          {
+            "tipo": "Periódico",
+            "noPrazo": 753,
+            "foraDoPrazo": 26
+          },
+          {
+            "tipo": "Retorno ao trabalho",
+            "noPrazo": 24,
+            "foraDoPrazo": 1
+          },
+          {
+            "tipo": "Mudança de risco",
+            "noPrazo": 16,
+            "foraDoPrazo": 0
+          },
+          {
+            "tipo": "Demissional",
+            "noPrazo": 74,
+            "foraDoPrazo": 1
+          }
+        ],
+        "periodicosTotal": 820,
+        "periodicosVencidos": 37,
+        "periodicosAVencer": 20,
+        "pendentes": [
+          {
+            "nome": "Caio Carvalho Pereira",
+            "unidade": "BSB",
+            "setor": "TI",
+            "funcao": "Eletricista",
+            "ultimo": "2025-10-03",
+            "vencimento": "2026-10-03"
+          },
+          {
+            "nome": "Lucas Moreira Lopes",
+            "unidade": "BSB",
+            "setor": "Atendimento",
+            "funcao": "Técnico de manutenção",
+            "ultimo": "2025-06-03",
+            "vencimento": "2026-06-03"
+          },
+          {
+            "nome": "Yasmin Ferreira Souza",
+            "unidade": "BSB",
+            "setor": "TI",
+            "funcao": "Técnico de manutenção",
+            "ultimo": "2025-05-19",
+            "vencimento": "2026-05-19"
+          },
+          {
+            "nome": "Mariana Rodrigues Silva",
+            "unidade": "BSB",
+            "setor": "Atendimento",
+            "funcao": "Conferente",
+            "ultimo": "2025-05-22",
+            "vencimento": "2026-05-22"
+          },
+          {
+            "nome": "Wesley Dias Cardoso",
+            "unidade": "BSB",
+            "setor": "Administrativo",
+            "funcao": "Analista de TI",
+            "ultimo": "2025-08-19",
+            "vencimento": "2026-08-19"
+          },
+          {
+            "nome": "Rodrigo Teixeira Pereira",
+            "unidade": "BSB",
+            "setor": "Operações",
+            "funcao": "Técnico de manutenção",
+            "ultimo": "2025-05-19",
+            "vencimento": "2026-05-19"
+          },
+          {
+            "nome": "Priscila Costa Dias",
+            "unidade": "BSB",
+            "setor": "Logística",
+            "funcao": "Técnico de manutenção",
+            "ultimo": "2025-08-10",
+            "vencimento": "2026-08-10"
+          },
+          {
+            "nome": "Eduarda Costa Moreira",
+            "unidade": "BSB",
+            "setor": "TI",
+            "funcao": "Assistente administrativo",
+            "ultimo": "2025-08-25",
+            "vencimento": "2026-08-25"
+          },
+          {
+            "nome": "Eduarda Cardoso Costa",
+            "unidade": "BSB",
+            "setor": "TI",
+            "funcao": "Eletricista",
+            "ultimo": "2025-10-27",
+            "vencimento": "2026-10-27"
+          },
+          {
+            "nome": "Otávio Vieira Barbosa",
+            "unidade": "BSB",
+            "setor": "Operações",
+            "funcao": "Atendente",
+            "ultimo": "2025-10-17",
+            "vencimento": "2026-10-17"
+          },
+          {
+            "nome": "Vanessa Pereira Rocha",
+            "unidade": "BSB",
+            "setor": "TI",
+            "funcao": "Analista de TI",
+            "ultimo": "2025-10-24",
+            "vencimento": "2026-10-24"
+          },
+          {
+            "nome": "Rodrigo Barbosa Gomes",
+            "unidade": "BSB",
+            "setor": "Administrativo",
+            "funcao": "Auxiliar de logística",
+            "ultimo": "2025-11-14",
+            "vencimento": "2026-11-14"
+          }
+        ],
+        "exames": [
+          {
+            "exame": "Audiometria",
+            "programados": 180,
+            "realizados": 165
+          },
+          {
+            "exame": "Hemograma completo",
+            "programados": 492,
+            "realizados": 492
+          },
+          {
+            "exame": "Glicemia de jejum",
+            "programados": 328,
+            "realizados": 324
+          },
+          {
+            "exame": "Acuidade visual",
+            "programados": 246,
+            "realizados": 239
+          },
+          {
+            "exame": "Espirometria",
+            "programados": 164,
+            "realizados": 137
+          },
+          {
+            "exame": "Raio-X de tórax (padrão OIT)",
+            "programados": 82,
+            "realizados": 65
+          }
+        ],
+        "afastamentos": {
+          "Osteomuscular": 106,
+          "Saúde mental": 90,
+          "Acidente de trabalho": 41,
+          "Respiratório": 51,
+          "Outros": 49
+        },
+        "desligamentos": 75,
+        "pppEmitidos": 72,
+        "eventos": [
+          {
+            "codigo": "S-2210",
+            "descricao": "Comunicação de Acidente de Trabalho (CAT)",
+            "prazo": "Até o 1º dia útil após o acidente; imediato em caso de óbito",
+            "enviados": 12,
+            "pendentes": 0,
+            "rejeitados": 0
+          },
+          {
+            "codigo": "S-2220",
+            "descricao": "Monitoramento da saúde do trabalhador (ASO)",
+            "prazo": "Até o dia 15 do mês seguinte ao exame",
+            "enviados": 973,
+            "pendentes": 4,
+            "rejeitados": 1
+          },
+          {
+            "codigo": "S-2240",
+            "descricao": "Condições ambientais do trabalho (agentes nocivos)",
+            "prazo": "Até o dia 15 do mês seguinte ao início ou alteração",
+            "enviados": 285,
+            "pendentes": 2,
+            "rejeitados": 0
+          }
+        ],
+        "agentes": [
+          {
+            "agente": "Ruído contínuo ou intermitente",
+            "anexo": "Anexo 1",
+            "setores": [
+              "Operações",
+              "Manutenção"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 36,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Calor",
+            "anexo": "Anexo 3",
+            "setores": [
+              "Manutenção",
+              "Logística"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 14,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Vibração",
+            "anexo": "Anexo 8",
+            "setores": [
+              "Logística"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 10,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Hidrocarbonetos e óleos minerais",
+            "anexo": "Anexo 13",
+            "setores": [
+              "Manutenção"
+            ],
+            "grau": "Máximo (40%)",
+            "expostos": 14,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Agentes biológicos",
+            "anexo": "Anexo 14",
+            "setores": [
+              "Atendimento"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 12,
+            "acimaDoLimite": 0
+          }
+        ]
+      }
+    },
+    "sp": {
+      "d": {
+        "unidades": [
+          {
+            "id": "sp",
+            "nome": "Filial São Paulo/SP",
+            "sigla": "SP",
+            "colaboradores": 1150,
+            "maturidade": 0.74,
+            "acidentesCAF": 5,
+            "acidentesSAF": 14,
+            "diasPerdidos": 97,
+            "diasSemAcidente": 47
+          }
+        ],
+        "colaboradores": 1150,
+        "hht": 2277000,
+        "acidentesCAF": 5,
+        "acidentesSAF": 14,
+        "diasPerdidos": 97,
+        "diasSemAcidente": 47,
+        "mensalCAF": [
+          0,
+          0,
+          2,
+          2,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mensalSAF": [
+          1,
+          2,
+          2,
+          1,
+          0,
+          2,
+          2,
+          2,
+          0,
+          1,
+          1,
+          0
+        ],
+        "brigadistas": [
+          {
+            "id": "SP-B001",
+            "nome": "Wesley Martins Martins",
+            "unidade": "SP",
+            "setor": "Atendimento",
+            "turno": "Manhã",
+            "treinamento": "2026-05-07",
+            "validade": "2027-05-07"
+          },
+          {
+            "id": "SP-B002",
+            "nome": "Bruno Almeida Teixeira",
+            "unidade": "SP",
+            "setor": "Operações",
+            "turno": "Manhã",
+            "treinamento": "2026-04-21",
+            "validade": "2027-04-21"
+          },
+          {
+            "id": "SP-B003",
+            "nome": "Henrique Souza Araújo",
+            "unidade": "SP",
+            "setor": "Logística",
+            "turno": "Tarde",
+            "treinamento": "2026-05-19",
+            "validade": "2027-05-19"
+          },
+          {
+            "id": "SP-B004",
+            "nome": "Karina Almeida Almeida",
+            "unidade": "SP",
+            "setor": "TI",
+            "turno": "Tarde",
+            "treinamento": "2025-12-17",
+            "validade": "2026-12-17"
+          },
+          {
+            "id": "SP-B005",
+            "nome": "Eduarda Vieira Carvalho",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Noite",
+            "treinamento": "2025-12-05",
+            "validade": "2026-12-05"
+          },
+          {
+            "id": "SP-B006",
+            "nome": "Eduarda Freitas Ferreira",
+            "unidade": "SP",
+            "setor": "Atendimento",
+            "turno": "Manhã",
+            "treinamento": "2025-12-17",
+            "validade": "2026-12-17"
+          },
+          {
+            "id": "SP-B007",
+            "nome": "Natália Gomes Rocha",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Tarde",
+            "treinamento": "2026-07-05",
+            "validade": "2027-07-05"
+          },
+          {
+            "id": "SP-B008",
+            "nome": "Fábio Souza Carvalho",
+            "unidade": "SP",
+            "setor": "TI",
+            "turno": "Tarde",
+            "treinamento": "2026-03-15",
+            "validade": "2027-03-15"
+          },
+          {
+            "id": "SP-B009",
+            "nome": "Wesley Ribeiro Silva",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Tarde",
+            "treinamento": "2026-05-19",
+            "validade": "2027-05-19"
+          },
+          {
+            "id": "SP-B010",
+            "nome": "Rafael Souza Moreira",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2026-05-07",
+            "validade": "2027-05-07"
+          },
+          {
+            "id": "SP-B011",
+            "nome": "Thiago Teixeira Ribeiro",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Noite",
+            "treinamento": "2025-07-12",
+            "validade": "2026-07-12"
+          },
+          {
+            "id": "SP-B012",
+            "nome": "Yasmin Silva Ribeiro",
+            "unidade": "SP",
+            "setor": "Atendimento",
+            "turno": "Manhã",
+            "treinamento": "2026-01-30",
+            "validade": "2027-01-30"
+          },
+          {
+            "id": "SP-B013",
+            "nome": "Lucas Ferreira Costa",
+            "unidade": "SP",
+            "setor": "TI",
+            "turno": "Noite",
+            "treinamento": "2026-01-26",
+            "validade": "2027-01-26"
+          },
+          {
+            "id": "SP-B014",
+            "nome": "Natália Silva Ferreira",
+            "unidade": "SP",
+            "setor": "Logística",
+            "turno": "Administrativo",
+            "treinamento": "2026-02-02",
+            "validade": "2027-02-02"
+          },
+          {
+            "id": "SP-B015",
+            "nome": "Leandro Teixeira Vieira",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Noite",
+            "treinamento": "2025-11-12",
+            "validade": "2026-11-12"
+          },
+          {
+            "id": "SP-B016",
+            "nome": "Wesley Gomes Teixeira",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Manhã",
+            "treinamento": "2025-10-27",
+            "validade": "2026-10-27"
+          },
+          {
+            "id": "SP-B017",
+            "nome": "Felipe Costa Lopes",
+            "unidade": "SP",
+            "setor": "Atendimento",
+            "turno": "Noite",
+            "treinamento": "2026-08-19",
+            "validade": "2027-08-19"
+          },
+          {
+            "id": "SP-B018",
+            "nome": "Tatiane Vieira Lopes",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Administrativo",
+            "treinamento": "2025-09-03",
+            "validade": "2026-09-03"
+          },
+          {
+            "id": "SP-B019",
+            "nome": "Wesley Moreira Vieira",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Noite",
+            "treinamento": "2026-10-11",
+            "validade": "2027-10-11"
+          },
+          {
+            "id": "SP-B020",
+            "nome": "Ana Ribeiro Martins",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2026-01-22",
+            "validade": "2027-01-22"
+          },
+          {
+            "id": "SP-B021",
+            "nome": "Gabriela Silva Oliveira",
+            "unidade": "SP",
+            "setor": "Operações",
+            "turno": "Tarde",
+            "treinamento": "2025-07-18",
+            "validade": "2026-07-18"
+          },
+          {
+            "id": "SP-B022",
+            "nome": "Karina Teixeira Nunes",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Manhã",
+            "treinamento": "2026-02-26",
+            "validade": "2027-02-26"
+          },
+          {
+            "id": "SP-B023",
+            "nome": "Carla Moreira Barbosa",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Noite",
+            "treinamento": "2025-11-11",
+            "validade": "2026-11-11"
+          },
+          {
+            "id": "SP-B024",
+            "nome": "Lucas Teixeira Dias",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Administrativo",
+            "treinamento": "2025-12-30",
+            "validade": "2026-12-30"
+          },
+          {
+            "id": "SP-B025",
+            "nome": "Natália Souza Vieira",
+            "unidade": "SP",
+            "setor": "TI",
+            "turno": "Tarde",
+            "treinamento": "2026-08-07",
+            "validade": "2027-08-07"
+          },
+          {
+            "id": "SP-B026",
+            "nome": "Rodrigo Ribeiro Souza",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Noite",
+            "treinamento": "2025-09-23",
+            "validade": "2026-09-23"
+          },
+          {
+            "id": "SP-B027",
+            "nome": "Lucas Mendes Souza",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2026-08-17",
+            "validade": "2027-08-17"
+          },
+          {
+            "id": "SP-B028",
+            "nome": "Isabela Mendes Nunes",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2026-07-10",
+            "validade": "2027-07-10"
+          },
+          {
+            "id": "SP-B029",
+            "nome": "Priscila Barbosa Oliveira",
+            "unidade": "SP",
+            "setor": "Logística",
+            "turno": "Manhã",
+            "treinamento": "2026-05-08",
+            "validade": "2027-05-08"
+          },
+          {
+            "id": "SP-B030",
+            "nome": "Gabriela Rodrigues Cardoso",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2026-06-30",
+            "validade": "2027-06-30"
+          },
+          {
+            "id": "SP-B031",
+            "nome": "Caio Teixeira Moreira",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Manhã",
+            "treinamento": "2026-10-02",
+            "validade": "2027-10-02"
+          },
+          {
+            "id": "SP-B032",
+            "nome": "Karina Rocha Pereira",
+            "unidade": "SP",
+            "setor": "Manutenção",
+            "turno": "Manhã",
+            "treinamento": "2026-06-19",
+            "validade": "2027-06-19"
+          },
+          {
+            "id": "SP-B033",
+            "nome": "Rodrigo Moreira Lopes",
+            "unidade": "SP",
+            "setor": "Logística",
+            "turno": "Manhã",
+            "treinamento": "2025-12-17",
+            "validade": "2026-12-17"
+          },
+          {
+            "id": "SP-B034",
+            "nome": "Gabriela Costa Vieira",
+            "unidade": "SP",
+            "setor": "Operações",
+            "turno": "Tarde",
+            "treinamento": "2026-04-24",
+            "validade": "2027-04-24"
+          },
+          {
+            "id": "SP-B035",
+            "nome": "Diego Rocha Ribeiro",
+            "unidade": "SP",
+            "setor": "Operações",
+            "turno": "Noite",
+            "treinamento": "2026-04-19",
+            "validade": "2027-04-19"
+          }
+        ],
+        "brigadistasExigidos": 32,
+        "equipamentos": [
+          {
+            "codigo": "SP-EXT-001",
+            "item": "Extintor PQS ABC 6 kg",
+            "categoria": "Extintor",
+            "local": "Recepção",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2027-01-10"
+          },
+          {
+            "codigo": "SP-EXT-002",
+            "item": "Extintor PQS ABC 6 kg",
+            "categoria": "Extintor",
+            "local": "Sala de servidores",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2026-12-08"
+          },
+          {
+            "codigo": "SP-EXT-003",
+            "item": "Extintor CO₂ 6 kg",
+            "categoria": "Extintor",
+            "local": "Refeitório",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2027-01-16"
+          },
+          {
+            "codigo": "SP-EXT-004",
+            "item": "Extintor CO₂ 6 kg",
+            "categoria": "Extintor",
+            "local": "Bloco A – 1º andar",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2027-07-02"
+          },
+          {
+            "codigo": "SP-EXT-005",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Almoxarifado",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2027-07-13"
+          },
+          {
+            "codigo": "SP-EXT-006",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Sala de servidores",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2027-05-28"
+          },
+          {
+            "codigo": "SP-HID-001",
+            "item": "Mangueira de hidrante 15 m",
+            "categoria": "Hidrante",
+            "local": "Sala de servidores",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2027-09-28"
+          },
+          {
+            "codigo": "SP-EPI-001",
+            "item": "Máscara PFF2 (lote)",
+            "categoria": "EPI",
+            "local": "Bloco A – térreo",
+            "unidade": "SP",
+            "quantidade": 60,
+            "validade": "2026-11-07"
+          },
+          {
+            "codigo": "SP-EPI-002",
+            "item": "Luva nitrílica (lote)",
+            "categoria": "EPI",
+            "local": "Recepção",
+            "unidade": "SP",
+            "quantidade": 70,
+            "validade": "2028-03-25"
+          },
+          {
+            "codigo": "SP-EPI-003",
+            "item": "Protetor auricular tipo plug (lote)",
+            "categoria": "EPI",
+            "local": "Doca de expedição",
+            "unidade": "SP",
+            "quantidade": 210,
+            "validade": "2028-08-18"
+          },
+          {
+            "codigo": "SP-EPI-004",
+            "item": "Capacete de segurança classe B",
+            "categoria": "EPI",
+            "local": "Refeitório",
+            "unidade": "SP",
+            "quantidade": 50,
+            "validade": "2027-01-19"
+          },
+          {
+            "codigo": "SP-EPI-005",
+            "item": "Óculos de proteção incolor (lote)",
+            "categoria": "EPI",
+            "local": "Almoxarifado",
+            "unidade": "SP",
+            "quantidade": 90,
+            "validade": "2027-01-06"
+          },
+          {
+            "codigo": "SP-EPI-006",
+            "item": "Cinto paraquedista com talabarte",
+            "categoria": "EPI",
+            "local": "Recepção",
+            "unidade": "SP",
+            "quantidade": 310,
+            "validade": "2027-01-21"
+          },
+          {
+            "codigo": "SP-KIT-001",
+            "item": "Kit de primeiros socorros",
+            "categoria": "Kit",
+            "local": "Sala de servidores",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2026-11-05"
+          },
+          {
+            "codigo": "SP-KIT-002",
+            "item": "Kit de contenção de derramamento",
+            "categoria": "Kit",
+            "local": "Bloco A – 1º andar",
+            "unidade": "SP",
+            "quantidade": 2,
+            "validade": "2027-02-12"
+          },
+          {
+            "codigo": "SP-EMG-001",
+            "item": "Eletrodos do desfibrilador (DEA)",
+            "categoria": "Emergência",
+            "local": "Almoxarifado",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2027-03-19"
+          },
+          {
+            "codigo": "SP-EMG-002",
+            "item": "Luminária de emergência (bateria)",
+            "categoria": "Emergência",
+            "local": "Bloco A – 1º andar",
+            "unidade": "SP",
+            "quantidade": 1,
+            "validade": "2026-12-10"
+          }
+        ],
+        "documentos": [
+          {
+            "codigo": "PGR",
+            "nome": "Programa de Gerenciamento de Riscos",
+            "tipo": "Programa",
+            "norma": "NR-1",
+            "unidade": "SP",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Bienal ou por mudança no processo",
+            "ultimaRevisao": "2024-10-24",
+            "proximaRevisao": "2026-10-24",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "PCMSO",
+            "nome": "Programa de Controle Médico de Saúde Ocupacional",
+            "tipo": "Programa",
+            "norma": "NR-7",
+            "unidade": "SP",
+            "responsavel": "Médico do Trabalho",
+            "periodicidade": "Anual (relatório analítico)",
+            "ultimaRevisao": "2026-09-04",
+            "proximaRevisao": "2027-09-04",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "LTCAT",
+            "nome": "Laudo Técnico das Condições Ambientais do Trabalho",
+            "tipo": "Laudo",
+            "norma": "Lei 8.213/91 · NR-15",
+            "unidade": "SP",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Anual ou por mudança no ambiente",
+            "ultimaRevisao": "2026-09-20",
+            "proximaRevisao": "2027-09-20",
+            "fluxo": "Em revisão",
+            "progresso": 70
+          },
+          {
+            "codigo": "AET",
+            "nome": "Análise Ergonômica do Trabalho",
+            "tipo": "Laudo",
+            "norma": "NR-17",
+            "unidade": "SP",
+            "responsavel": "Ergonomista",
+            "periodicidade": "Bienal",
+            "ultimaRevisao": "2025-08-15",
+            "proximaRevisao": "2027-08-15",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "PAE",
+            "nome": "Plano de Atendimento a Emergências",
+            "tipo": "Plano",
+            "norma": "NR-23",
+            "unidade": "SP",
+            "responsavel": "Coord. da Brigada",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-07-02",
+            "proximaRevisao": "2027-07-02",
+            "fluxo": "Em revisão",
+            "progresso": 72
+          },
+          {
+            "codigo": "POP-SST-01",
+            "nome": "Investigação e análise de acidentes",
+            "tipo": "POP",
+            "norma": "NR-1",
+            "unidade": "SP",
+            "responsavel": "Téc. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-10-22",
+            "proximaRevisao": "2026-10-22",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-02",
+            "nome": "Entrega, guarda e substituição de EPI",
+            "tipo": "POP",
+            "norma": "NR-6",
+            "unidade": "SP",
+            "responsavel": "Téc. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-07-23",
+            "proximaRevisao": "2026-07-23",
+            "fluxo": "Desatualizado",
+            "progresso": 18
+          },
+          {
+            "codigo": "POP-SST-03",
+            "nome": "Inspeção mensal de extintores e hidrantes",
+            "tipo": "POP",
+            "norma": "NR-23",
+            "unidade": "SP",
+            "responsavel": "Coord. da Brigada",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-05-31",
+            "proximaRevisao": "2027-05-31",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-04",
+            "nome": "Emissão de CAT e envio ao eSocial (S-2210)",
+            "tipo": "POP",
+            "norma": "eSocial",
+            "unidade": "SP",
+            "responsavel": "Gestão de Pessoas",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-06-17",
+            "proximaRevisao": "2027-06-17",
+            "fluxo": "Em revisão",
+            "progresso": 82
+          },
+          {
+            "codigo": "FLX-SST-01",
+            "nome": "Fluxo de exames ocupacionais (ASO)",
+            "tipo": "Fluxo",
+            "norma": "NR-7",
+            "unidade": "SP",
+            "responsavel": "Medicina do Trabalho",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-08-11",
+            "proximaRevisao": "2027-08-11",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "FLX-SST-02",
+            "nome": "Fluxo de permissão para trabalho de risco",
+            "tipo": "Fluxo",
+            "norma": "NR-10 / NR-35",
+            "unidade": "SP",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-10-16",
+            "proximaRevisao": "2026-10-16",
+            "fluxo": "Em revisão",
+            "progresso": 56
+          },
+          {
+            "codigo": "PGR-OBRA",
+            "nome": "PGR da obra de ampliação do galpão (substitui o PCMAT)",
+            "tipo": "Programa",
+            "norma": "NR-18",
+            "unidade": "SP",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "A cada nova etapa da obra",
+            "ultimaRevisao": "2026-05-16",
+            "proximaRevisao": "2026-11-12",
+            "fluxo": "Em revisão",
+            "progresso": 60
+          }
+        ],
+        "riscos": {
+          "Administrativo": [
+            1,
+            0,
+            0,
+            6,
+            1,
+            4
+          ],
+          "Operações": [
+            4,
+            3,
+            1,
+            4,
+            8,
+            2
+          ],
+          "Manutenção": [
+            5,
+            6,
+            1,
+            4,
+            9,
+            2
+          ],
+          "Logística": [
+            4,
+            1,
+            0,
+            5,
+            6,
+            2
+          ],
+          "Atendimento": [
+            1,
+            0,
+            4,
+            3,
+            1,
+            5
+          ],
+          "TI": [
+            1,
+            0,
+            0,
+            4,
+            1,
+            2
+          ]
+        },
+        "pesquisa": {
+          "dimensoes": [
+            {
+              "nome": "Percepção de risco",
+              "atual": 7.611200216971338,
+              "anterior": 7.124584885803052
+            },
+            {
+              "nome": "Eficácia dos treinamentos",
+              "atual": 6.931417810916901,
+              "anterior": 6.436283035506495
+            },
+            {
+              "nome": "Segurança psicológica",
+              "atual": 6.609975386597217,
+              "anterior": 6.044169900519774
+            },
+            {
+              "nome": "Liderança engajada em SST",
+              "atual": 6.997293024510146,
+              "anterior": 6.511431218800135
+            },
+            {
+              "nome": "Comunicação de riscos",
+              "atual": 7.283638329990209,
+              "anterior": 7.360751603287646
+            },
+            {
+              "nome": "Adequação dos EPIs",
+              "atual": 7.449007908068598,
+              "anterior": 7.435669210366905
+            },
+            {
+              "nome": "Confiança no canal de reporte",
+              "atual": 6.328706744313241,
+              "anterior": 6.334676296939143
+            }
+          ],
+          "porSetor": {
+            "Administrativo": 7.8506592322140945,
+            "Operações": 6.8708012258633975,
+            "Manutenção": 7.349192130193115,
+            "Logística": 6.83470721822232,
+            "Atendimento": 7.285388721153141,
+            "TI": 8.018628727644682
+          },
+          "respondentes": 931,
+          "tendencia": [
+            6.252658845514193,
+            6.729081828549638,
+            6.749652307317592,
+            7.030177060195379
+          ]
+        },
+        "indicadores": {
+          "conformidadeNR1": 87.17020735740661,
+          "trustIndex": 74.05243877630681,
+          "horasTreinamento": 12.686921291612089,
+          "ncsAbertas": 5,
+          "investigacoesNoPrazo": 87.66774660989643,
+          "absenteismo": 2.8295919128917157,
+          "turnover": 10.959424121193589
+        }
+      },
+      "k": {
+        "tf": 2.1958717610891525,
+        "tg": 42.59991216512956,
+        "conformidadeNR1": 87.17020735740661,
+        "brigadistasAtivos": 31,
+        "indiceBrigada": 96.875,
+        "notaPercepcao": 7.030177060195379,
+        "notaAnterior": 6.749652307317592,
+        "participacao": 80.95652173913044,
+        "equipVencidos": 0,
+        "equipCriticos": 2,
+        "docsVencidos": 1,
+        "docsVigentesPct": 91.66666666666666
+      },
+      "metricas": [
+        {
+          "id": "trust",
+          "nome": "Trust Index (% de respostas favoráveis)",
+          "valor": 74.05243877630681,
+          "meta": 70,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "GPTW"
+          ],
+          "casas": 1,
+          "bloqueante": [
+            "GPTW"
+          ],
+          "sugestao": "Divulgar o resultado por área em até 30 dias, construir planos de ação com as próprias equipes e priorizar os temas de menor favorabilidade, como reconhecimento, imparcialidade e comunicação da liderança."
+        },
+        {
+          "id": "psi",
+          "nome": "Segurança psicológica (nota da pesquisa)",
+          "valor": 6.609975386597217,
+          "meta": 7.5,
+          "unidade": "",
+          "sentido": "maior",
+          "selos": [
+            "GPTW",
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Incluir os fatores de risco psicossociais no inventário do PGR, capacitar as lideranças em escuta ativa e garantir anonimato e devolutiva no canal de reporte."
+        },
+        {
+          "id": "nr1",
+          "nome": "Conformidade NR-1 / GRO",
+          "valor": 87.17020735740661,
+          "meta": 90,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Tratar os itens não conformes do checklist do GRO por ordem de risco, atualizar o plano de ação do PGR com responsáveis e prazos e registrar as evidências de implementação."
+        },
+        {
+          "id": "tf",
+          "nome": "Taxa de frequência de acidentes com afastamento",
+          "valor": 2.1958717610891525,
+          "meta": 3,
+          "unidade": "",
+          "sentido": "menor",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 2,
+          "sugestao": "Reforçar a análise de causa raiz dos acidentes, ampliar as inspeções comportamentais nos setores de maior exposição e revisar as permissões para trabalho de risco."
+        },
+        {
+          "id": "horas",
+          "nome": "Horas de treinamento em SST por colaborador/ano",
+          "valor": 12.686921291612089,
+          "meta": 12,
+          "unidade": "h",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG",
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Montar trilha anual obrigatória por função, com integração, NRs aplicáveis e reciclagens em formatos curtos, e acompanhar a presença por unidade."
+        },
+        {
+          "id": "ncs",
+          "nome": "Não conformidades abertas na auditoria interna de SST",
+          "valor": 5,
+          "meta": 3,
+          "unidade": "",
+          "sentido": "menor",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 0,
+          "sugestao": "Fazer mutirão de tratamento das não conformidades com análise de causa, definir responsável e prazo para cada uma e verificar a eficácia antes da auditoria externa."
+        },
+        {
+          "id": "invest",
+          "nome": "Investigações de incidentes concluídas no prazo",
+          "valor": 87.66774660989643,
+          "meta": 90,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 1,
+          "sugestao": "Padronizar o prazo no POP de investigação de acidentes, automatizar lembretes e envolver a CIPA e os trabalhadores na análise."
+        },
+        {
+          "id": "abs",
+          "nome": "Taxa de absenteísmo",
+          "valor": 2.8295919128917157,
+          "meta": 3,
+          "unidade": "%",
+          "sentido": "menor",
+          "selos": [
+            "ESG",
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Analisar os afastamentos por setor e por causa com os dados agregados do PCMSO e concentrar as ações de saúde onde a incidência é maior."
+        },
+        {
+          "id": "part",
+          "nome": "Participação na pesquisa de clima de segurança",
+          "valor": 80.95652173913044,
+          "meta": 75,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Ampliar a janela de coleta, oferecer acesso pelo celular e por totens às equipes operacionais e reforçar a garantia de confidencialidade."
+        },
+        {
+          "id": "brig",
+          "nome": "Brigadistas com treinamento válido",
+          "valor": 96.875,
+          "meta": 95,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 1,
+          "sugestao": "Agendar a reciclagem imediata dos brigadistas vencidos e recrutar voluntários nos turnos com menor cobertura."
+        },
+        {
+          "id": "turn",
+          "nome": "Turnover voluntário (12 meses)",
+          "valor": 10.959424121193589,
+          "meta": 12,
+          "unidade": "%",
+          "sentido": "menor",
+          "selos": [
+            "GPTW",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Aplicar entrevistas de desligamento estruturadas e cruzar os motivos de saída com os resultados da pesquisa de clima."
+        },
+        {
+          "id": "docs",
+          "nome": "Documentos de SST vigentes",
+          "valor": 91.66666666666666,
+          "meta": 100,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Priorizar a revisão dos documentos vencidos e manter calendário de revisões com alerta automático 90 dias antes do prazo."
+        }
+      ],
+      "med": {
+        "grauRisco": "3",
+        "sesmt": [
+          {
+            "funcao": "Técnico de Segurança do Trabalho",
+            "exigido": 4,
+            "existente": 4
+          },
+          {
+            "funcao": "Engenheiro de Segurança do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          },
+          {
+            "funcao": "Aux./Téc. de Enfermagem do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          },
+          {
+            "funcao": "Enfermeiro do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          },
+          {
+            "funcao": "Médico do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          }
+        ],
+        "asos": [
+          {
+            "tipo": "Admissional",
+            "noPrazo": 134,
+            "foraDoPrazo": 5
+          },
+          {
+            "tipo": "Periódico",
+            "noPrazo": 1043,
+            "foraDoPrazo": 50
+          },
+          {
+            "tipo": "Retorno ao trabalho",
+            "noPrazo": 34,
+            "foraDoPrazo": 1
+          },
+          {
+            "tipo": "Mudança de risco",
+            "noPrazo": 22,
+            "foraDoPrazo": 1
+          },
+          {
+            "tipo": "Demissional",
+            "noPrazo": 122,
+            "foraDoPrazo": 4
+          }
+        ],
+        "periodicosTotal": 1150,
+        "periodicosVencidos": 77,
+        "periodicosAVencer": 41,
+        "pendentes": [
+          {
+            "nome": "Caio Martins Costa",
+            "unidade": "SP",
+            "setor": "Logística",
+            "funcao": "Assistente administrativo",
+            "ultimo": "2025-07-07",
+            "vencimento": "2026-07-07"
+          },
+          {
+            "nome": "Tatiane Silva Almeida",
+            "unidade": "SP",
+            "setor": "TI",
+            "funcao": "Técnico de manutenção",
+            "ultimo": "2025-07-11",
+            "vencimento": "2026-07-11"
+          },
+          {
+            "nome": "Priscila Ferreira Vieira",
+            "unidade": "SP",
+            "setor": "Atendimento",
+            "funcao": "Conferente",
+            "ultimo": "2025-10-08",
+            "vencimento": "2026-10-08"
+          },
+          {
+            "nome": "Isabela Souza Rocha",
+            "unidade": "SP",
+            "setor": "TI",
+            "funcao": "Eletricista",
+            "ultimo": "2025-05-22",
+            "vencimento": "2026-05-22"
+          },
+          {
+            "nome": "Fábio Mendes Souza",
+            "unidade": "SP",
+            "setor": "Atendimento",
+            "funcao": "Eletricista",
+            "ultimo": "2025-06-27",
+            "vencimento": "2026-06-27"
+          },
+          {
+            "nome": "Otávio Vieira Ferreira",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "funcao": "Eletricista",
+            "ultimo": "2025-10-12",
+            "vencimento": "2026-10-12"
+          },
+          {
+            "nome": "Sabrina Rocha Ferreira",
+            "unidade": "SP",
+            "setor": "TI",
+            "funcao": "Auxiliar de logística",
+            "ultimo": "2025-10-10",
+            "vencimento": "2026-10-10"
+          },
+          {
+            "nome": "Sabrina Araújo Costa",
+            "unidade": "SP",
+            "setor": "Logística",
+            "funcao": "Auxiliar de logística",
+            "ultimo": "2025-09-26",
+            "vencimento": "2026-09-26"
+          },
+          {
+            "nome": "Fábio Rodrigues Souza",
+            "unidade": "SP",
+            "setor": "TI",
+            "funcao": "Auxiliar de logística",
+            "ultimo": "2025-10-21",
+            "vencimento": "2026-10-21"
+          },
+          {
+            "nome": "Eduarda Almeida Mendes",
+            "unidade": "SP",
+            "setor": "Administrativo",
+            "funcao": "Analista de TI",
+            "ultimo": "2025-11-02",
+            "vencimento": "2026-11-02"
+          },
+          {
+            "nome": "Caio Silva Cardoso",
+            "unidade": "SP",
+            "setor": "Logística",
+            "funcao": "Eletricista",
+            "ultimo": "2025-10-22",
+            "vencimento": "2026-10-22"
+          },
+          {
+            "nome": "Gabriela Teixeira Ribeiro",
+            "unidade": "SP",
+            "setor": "Atendimento",
+            "funcao": "Eletricista",
+            "ultimo": "2025-10-17",
+            "vencimento": "2026-10-17"
+          }
+        ],
+        "exames": [
+          {
+            "exame": "Audiometria",
+            "programados": 633,
+            "realizados": 543
+          },
+          {
+            "exame": "Hemograma completo",
+            "programados": 690,
+            "realizados": 690
+          },
+          {
+            "exame": "Glicemia de jejum",
+            "programados": 460,
+            "realizados": 459
+          },
+          {
+            "exame": "Acuidade visual",
+            "programados": 345,
+            "realizados": 319
+          },
+          {
+            "exame": "Espirometria",
+            "programados": 230,
+            "realizados": 195
+          },
+          {
+            "exame": "Raio-X de tórax (padrão OIT)",
+            "programados": 115,
+            "realizados": 90
+          }
+        ],
+        "afastamentos": {
+          "Osteomuscular": 175,
+          "Saúde mental": 171,
+          "Acidente de trabalho": 97,
+          "Respiratório": 60,
+          "Outros": 78
+        },
+        "desligamentos": 126,
+        "pppEmitidos": 118,
+        "eventos": [
+          {
+            "codigo": "S-2210",
+            "descricao": "Comunicação de Acidente de Trabalho (CAT)",
+            "prazo": "Até o 1º dia útil após o acidente; imediato em caso de óbito",
+            "enviados": 19,
+            "pendentes": 0,
+            "rejeitados": 0
+          },
+          {
+            "codigo": "S-2220",
+            "descricao": "Monitoramento da saúde do trabalhador (ASO)",
+            "prazo": "Até o dia 15 do mês seguinte ao exame",
+            "enviados": 1401,
+            "pendentes": 11,
+            "rejeitados": 4
+          },
+          {
+            "codigo": "S-2240",
+            "descricao": "Condições ambientais do trabalho (agentes nocivos)",
+            "prazo": "Até o dia 15 do mês seguinte ao início ou alteração",
+            "enviados": 397,
+            "pendentes": 6,
+            "rejeitados": 0
+          }
+        ],
+        "agentes": [
+          {
+            "agente": "Ruído contínuo ou intermitente",
+            "anexo": "Anexo 1",
+            "setores": [
+              "Operações",
+              "Manutenção"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 211,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Calor",
+            "anexo": "Anexo 3",
+            "setores": [
+              "Manutenção",
+              "Logística"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 51,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Vibração",
+            "anexo": "Anexo 8",
+            "setores": [
+              "Logística"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 55,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Hidrocarbonetos e óleos minerais",
+            "anexo": "Anexo 13",
+            "setores": [
+              "Manutenção"
+            ],
+            "grau": "Máximo (40%)",
+            "expostos": 58,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Agentes biológicos",
+            "anexo": "Anexo 14",
+            "setores": [
+              "Atendimento"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 63,
+            "acimaDoLimite": 0
+          }
+        ]
+      }
+    },
+    "gyn": {
+      "d": {
+        "unidades": [
+          {
+            "id": "gyn",
+            "nome": "Filial Goiânia/GO",
+            "sigla": "GYN",
+            "colaboradores": 410,
+            "maturidade": 0.66,
+            "acidentesCAF": 4,
+            "acidentesSAF": 8,
+            "diasPerdidos": 73,
+            "diasSemAcidente": 22
+          }
+        ],
+        "colaboradores": 410,
+        "hht": 811800,
+        "acidentesCAF": 4,
+        "acidentesSAF": 8,
+        "diasPerdidos": 73,
+        "diasSemAcidente": 22,
+        "mensalCAF": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "mensalSAF": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "brigadistas": [
+          {
+            "id": "GYN-B001",
+            "nome": "Priscila Almeida Lopes",
+            "unidade": "GYN",
+            "setor": "Operações",
+            "turno": "Manhã",
+            "treinamento": "2026-04-10",
+            "validade": "2027-04-10"
+          },
+          {
+            "id": "GYN-B002",
+            "nome": "Felipe Vieira Oliveira",
+            "unidade": "GYN",
+            "setor": "Manutenção",
+            "turno": "Manhã",
+            "treinamento": "2025-11-04",
+            "validade": "2026-11-04"
+          },
+          {
+            "id": "GYN-B003",
+            "nome": "Otávio Martins Moreira",
+            "unidade": "GYN",
+            "setor": "Logística",
+            "turno": "Administrativo",
+            "treinamento": "2025-09-28",
+            "validade": "2026-09-28"
+          },
+          {
+            "id": "GYN-B004",
+            "nome": "Fábio Cardoso Carvalho",
+            "unidade": "GYN",
+            "setor": "Logística",
+            "turno": "Tarde",
+            "treinamento": "2026-08-25",
+            "validade": "2027-08-25"
+          },
+          {
+            "id": "GYN-B005",
+            "nome": "Sabrina Carvalho Araújo",
+            "unidade": "GYN",
+            "setor": "TI",
+            "turno": "Administrativo",
+            "treinamento": "2025-11-04",
+            "validade": "2026-11-04"
+          },
+          {
+            "id": "GYN-B006",
+            "nome": "Diego Rodrigues Ferreira",
+            "unidade": "GYN",
+            "setor": "Atendimento",
+            "turno": "Administrativo",
+            "treinamento": "2026-08-26",
+            "validade": "2027-08-26"
+          },
+          {
+            "id": "GYN-B007",
+            "nome": "Diego Gomes Gomes",
+            "unidade": "GYN",
+            "setor": "TI",
+            "turno": "Administrativo",
+            "treinamento": "2026-01-01",
+            "validade": "2027-01-01"
+          },
+          {
+            "id": "GYN-B008",
+            "nome": "Priscila Nunes Silva",
+            "unidade": "GYN",
+            "setor": "Atendimento",
+            "turno": "Administrativo",
+            "treinamento": "2026-02-14",
+            "validade": "2027-02-14"
+          },
+          {
+            "id": "GYN-B009",
+            "nome": "Diego Araújo Moreira",
+            "unidade": "GYN",
+            "setor": "Atendimento",
+            "turno": "Manhã",
+            "treinamento": "2025-12-14",
+            "validade": "2026-12-14"
+          },
+          {
+            "id": "GYN-B010",
+            "nome": "Isabela Almeida Vieira",
+            "unidade": "GYN",
+            "setor": "Manutenção",
+            "turno": "Tarde",
+            "treinamento": "2026-04-02",
+            "validade": "2027-04-02"
+          },
+          {
+            "id": "GYN-B011",
+            "nome": "Diego Lopes Barbosa",
+            "unidade": "GYN",
+            "setor": "Atendimento",
+            "turno": "Noite",
+            "treinamento": "2025-12-20",
+            "validade": "2026-12-20"
+          },
+          {
+            "id": "GYN-B012",
+            "nome": "Mariana Barbosa Ferreira",
+            "unidade": "GYN",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2026-01-18",
+            "validade": "2027-01-18"
+          }
+        ],
+        "brigadistasExigidos": 11,
+        "equipamentos": [
+          {
+            "codigo": "GYN-EXT-001",
+            "item": "Extintor PQS ABC 6 kg",
+            "categoria": "Extintor",
+            "local": "Recepção",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2026-10-01"
+          },
+          {
+            "codigo": "GYN-EXT-002",
+            "item": "Extintor CO₂ 6 kg",
+            "categoria": "Extintor",
+            "local": "Recepção",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2027-06-10"
+          },
+          {
+            "codigo": "GYN-EXT-003",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Recepção",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2027-06-23"
+          },
+          {
+            "codigo": "GYN-EXT-004",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Doca de expedição",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2026-10-02"
+          },
+          {
+            "codigo": "GYN-EXT-005",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Doca de expedição",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2026-12-18"
+          },
+          {
+            "codigo": "GYN-HID-001",
+            "item": "Mangueira de hidrante 15 m",
+            "categoria": "Hidrante",
+            "local": "Oficina de manutenção",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2026-12-08"
+          },
+          {
+            "codigo": "GYN-EPI-001",
+            "item": "Máscara PFF2 (lote)",
+            "categoria": "EPI",
+            "local": "Bloco A – térreo",
+            "unidade": "GYN",
+            "quantidade": 290,
+            "validade": "2027-09-21"
+          },
+          {
+            "codigo": "GYN-EPI-002",
+            "item": "Luva nitrílica (lote)",
+            "categoria": "EPI",
+            "local": "Bloco B – operação",
+            "unidade": "GYN",
+            "quantidade": 150,
+            "validade": "2026-08-29"
+          },
+          {
+            "codigo": "GYN-EPI-003",
+            "item": "Protetor auricular tipo plug (lote)",
+            "categoria": "EPI",
+            "local": "Bloco B – operação",
+            "unidade": "GYN",
+            "quantidade": 50,
+            "validade": "2027-04-05"
+          },
+          {
+            "codigo": "GYN-EPI-004",
+            "item": "Capacete de segurança classe B",
+            "categoria": "EPI",
+            "local": "Almoxarifado",
+            "unidade": "GYN",
+            "quantidade": 160,
+            "validade": "2027-01-12"
+          },
+          {
+            "codigo": "GYN-EPI-005",
+            "item": "Óculos de proteção incolor (lote)",
+            "categoria": "EPI",
+            "local": "Bloco A – térreo",
+            "unidade": "GYN",
+            "quantidade": 340,
+            "validade": "2027-11-20"
+          },
+          {
+            "codigo": "GYN-EPI-006",
+            "item": "Cinto paraquedista com talabarte",
+            "categoria": "EPI",
+            "local": "Bloco B – operação",
+            "unidade": "GYN",
+            "quantidade": 340,
+            "validade": "2026-11-10"
+          },
+          {
+            "codigo": "GYN-KIT-001",
+            "item": "Kit de primeiros socorros",
+            "categoria": "Kit",
+            "local": "Doca de expedição",
+            "unidade": "GYN",
+            "quantidade": 4,
+            "validade": "2026-12-08"
+          },
+          {
+            "codigo": "GYN-KIT-002",
+            "item": "Kit de contenção de derramamento",
+            "categoria": "Kit",
+            "local": "Refeitório",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2026-08-09"
+          },
+          {
+            "codigo": "GYN-EMG-001",
+            "item": "Eletrodos do desfibrilador (DEA)",
+            "categoria": "Emergência",
+            "local": "Sala de servidores",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2026-10-04"
+          },
+          {
+            "codigo": "GYN-EMG-002",
+            "item": "Luminária de emergência (bateria)",
+            "categoria": "Emergência",
+            "local": "Oficina de manutenção",
+            "unidade": "GYN",
+            "quantidade": 1,
+            "validade": "2027-07-15"
+          }
+        ],
+        "documentos": [
+          {
+            "codigo": "PGR",
+            "nome": "Programa de Gerenciamento de Riscos",
+            "tipo": "Programa",
+            "norma": "NR-1",
+            "unidade": "GYN",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Bienal ou por mudança no processo",
+            "ultimaRevisao": "2025-09-13",
+            "proximaRevisao": "2027-09-13",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "PCMSO",
+            "nome": "Programa de Controle Médico de Saúde Ocupacional",
+            "tipo": "Programa",
+            "norma": "NR-7",
+            "unidade": "GYN",
+            "responsavel": "Médico do Trabalho",
+            "periodicidade": "Anual (relatório analítico)",
+            "ultimaRevisao": "2026-05-10",
+            "proximaRevisao": "2027-05-10",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "LTCAT",
+            "nome": "Laudo Técnico das Condições Ambientais do Trabalho",
+            "tipo": "Laudo",
+            "norma": "Lei 8.213/91 · NR-15",
+            "unidade": "GYN",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Anual ou por mudança no ambiente",
+            "ultimaRevisao": "2025-10-27",
+            "proximaRevisao": "2026-10-27",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "AET",
+            "nome": "Análise Ergonômica do Trabalho",
+            "tipo": "Laudo",
+            "norma": "NR-17",
+            "unidade": "GYN",
+            "responsavel": "Ergonomista",
+            "periodicidade": "Bienal",
+            "ultimaRevisao": "2025-09-14",
+            "proximaRevisao": "2027-09-14",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "PAE",
+            "nome": "Plano de Atendimento a Emergências",
+            "tipo": "Plano",
+            "norma": "NR-23",
+            "unidade": "GYN",
+            "responsavel": "Coord. da Brigada",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-01-14",
+            "proximaRevisao": "2027-01-14",
+            "fluxo": "Em revisão",
+            "progresso": 39
+          },
+          {
+            "codigo": "POP-SST-01",
+            "nome": "Investigação e análise de acidentes",
+            "tipo": "POP",
+            "norma": "NR-1",
+            "unidade": "GYN",
+            "responsavel": "Téc. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-02-07",
+            "proximaRevisao": "2027-02-07",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-02",
+            "nome": "Entrega, guarda e substituição de EPI",
+            "tipo": "POP",
+            "norma": "NR-6",
+            "unidade": "GYN",
+            "responsavel": "Téc. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-08-26",
+            "proximaRevisao": "2026-08-26",
+            "fluxo": "Desatualizado",
+            "progresso": 6
+          },
+          {
+            "codigo": "POP-SST-03",
+            "nome": "Inspeção mensal de extintores e hidrantes",
+            "tipo": "POP",
+            "norma": "NR-23",
+            "unidade": "GYN",
+            "responsavel": "Coord. da Brigada",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-08-18",
+            "proximaRevisao": "2027-08-18",
+            "fluxo": "Em revisão",
+            "progresso": 47
+          },
+          {
+            "codigo": "POP-SST-04",
+            "nome": "Emissão de CAT e envio ao eSocial (S-2210)",
+            "tipo": "POP",
+            "norma": "eSocial",
+            "unidade": "GYN",
+            "responsavel": "Gestão de Pessoas",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-11-09",
+            "proximaRevisao": "2026-11-09",
+            "fluxo": "Em revisão",
+            "progresso": 40
+          },
+          {
+            "codigo": "FLX-SST-01",
+            "nome": "Fluxo de exames ocupacionais (ASO)",
+            "tipo": "Fluxo",
+            "norma": "NR-7",
+            "unidade": "GYN",
+            "responsavel": "Medicina do Trabalho",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-04-25",
+            "proximaRevisao": "2027-04-25",
+            "fluxo": "Em revisão",
+            "progresso": 79
+          },
+          {
+            "codigo": "FLX-SST-02",
+            "nome": "Fluxo de permissão para trabalho de risco",
+            "tipo": "Fluxo",
+            "norma": "NR-10 / NR-35",
+            "unidade": "GYN",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-09-11",
+            "proximaRevisao": "2027-09-11",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          }
+        ],
+        "riscos": {
+          "Administrativo": [
+            1,
+            0,
+            0,
+            3,
+            1,
+            2
+          ],
+          "Operações": [
+            3,
+            2,
+            1,
+            2,
+            4,
+            2
+          ],
+          "Manutenção": [
+            4,
+            4,
+            1,
+            2,
+            6,
+            2
+          ],
+          "Logística": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            1
+          ],
+          "Atendimento": [
+            1,
+            0,
+            2,
+            2,
+            1,
+            4
+          ],
+          "TI": [
+            1,
+            0,
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        "pesquisa": {
+          "dimensoes": [
+            {
+              "nome": "Percepção de risco",
+              "atual": 7.275587072037161,
+              "anterior": 7.187206928036177
+            },
+            {
+              "nome": "Eficácia dos treinamentos",
+              "atual": 7.294201532006264,
+              "anterior": 7.396983622410335
+            },
+            {
+              "nome": "Segurança psicológica",
+              "atual": 6.161156183853746,
+              "anterior": 5.493523947894573
+            },
+            {
+              "nome": "Liderança engajada em SST",
+              "atual": 6.821038655936718,
+              "anterior": 6.9813308999408035
+            },
+            {
+              "nome": "Comunicação de riscos",
+              "atual": 6.718203298375011,
+              "anterior": 6.8099030015990145
+            },
+            {
+              "nome": "Adequação dos EPIs",
+              "atual": 7.4445674153044825,
+              "anterior": 7.365896928706207
+            },
+            {
+              "nome": "Confiança no canal de reporte",
+              "atual": 5.600199138186872,
+              "anterior": 5.810757115995511
+            }
+          ],
+          "porSetor": {
+            "Administrativo": 7.647754090838135,
+            "Operações": 6.693473266251385,
+            "Manutenção": 6.342789921723306,
+            "Logística": 6.5466109806671735,
+            "Atendimento": 6.980097642168404,
+            "TI": 7.597070740349591
+          },
+          "respondentes": 314,
+          "tendencia": [
+            5.681698333558494,
+            6.243875105020458,
+            6.7208003492260895,
+            6.759279042242894
+          ]
+        },
+        "indicadores": {
+          "conformidadeNR1": 85.41322155166418,
+          "trustIndex": 66.2009617806226,
+          "horasTreinamento": 11.957665811665358,
+          "ncsAbertas": 4,
+          "investigacoesNoPrazo": 86.76176069948822,
+          "absenteismo": 3.2092309864386914,
+          "turnover": 13.007556510549039
+        }
+      },
+      "k": {
+        "tf": 4.927322000492732,
+        "tg": 89.92362650899236,
+        "conformidadeNR1": 85.41322155166418,
+        "brigadistasAtivos": 11,
+        "indiceBrigada": 100,
+        "notaPercepcao": 6.759279042242894,
+        "notaAnterior": 6.7208003492260895,
+        "participacao": 76.58536585365854,
+        "equipVencidos": 5,
+        "equipCriticos": 1,
+        "docsVencidos": 1,
+        "docsVigentesPct": 90.9090909090909
+      },
+      "metricas": [
+        {
+          "id": "trust",
+          "nome": "Trust Index (% de respostas favoráveis)",
+          "valor": 66.2009617806226,
+          "meta": 70,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "GPTW"
+          ],
+          "casas": 1,
+          "bloqueante": [
+            "GPTW"
+          ],
+          "sugestao": "Divulgar o resultado por área em até 30 dias, construir planos de ação com as próprias equipes e priorizar os temas de menor favorabilidade, como reconhecimento, imparcialidade e comunicação da liderança."
+        },
+        {
+          "id": "psi",
+          "nome": "Segurança psicológica (nota da pesquisa)",
+          "valor": 6.161156183853746,
+          "meta": 7.5,
+          "unidade": "",
+          "sentido": "maior",
+          "selos": [
+            "GPTW",
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Incluir os fatores de risco psicossociais no inventário do PGR, capacitar as lideranças em escuta ativa e garantir anonimato e devolutiva no canal de reporte."
+        },
+        {
+          "id": "nr1",
+          "nome": "Conformidade NR-1 / GRO",
+          "valor": 85.41322155166418,
+          "meta": 90,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Tratar os itens não conformes do checklist do GRO por ordem de risco, atualizar o plano de ação do PGR com responsáveis e prazos e registrar as evidências de implementação."
+        },
+        {
+          "id": "tf",
+          "nome": "Taxa de frequência de acidentes com afastamento",
+          "valor": 4.927322000492732,
+          "meta": 3,
+          "unidade": "",
+          "sentido": "menor",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 2,
+          "sugestao": "Reforçar a análise de causa raiz dos acidentes, ampliar as inspeções comportamentais nos setores de maior exposição e revisar as permissões para trabalho de risco."
+        },
+        {
+          "id": "horas",
+          "nome": "Horas de treinamento em SST por colaborador/ano",
+          "valor": 11.957665811665358,
+          "meta": 12,
+          "unidade": "h",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG",
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Montar trilha anual obrigatória por função, com integração, NRs aplicáveis e reciclagens em formatos curtos, e acompanhar a presença por unidade."
+        },
+        {
+          "id": "ncs",
+          "nome": "Não conformidades abertas na auditoria interna de SST",
+          "valor": 4,
+          "meta": 3,
+          "unidade": "",
+          "sentido": "menor",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 0,
+          "sugestao": "Fazer mutirão de tratamento das não conformidades com análise de causa, definir responsável e prazo para cada uma e verificar a eficácia antes da auditoria externa."
+        },
+        {
+          "id": "invest",
+          "nome": "Investigações de incidentes concluídas no prazo",
+          "valor": 86.76176069948822,
+          "meta": 90,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 1,
+          "sugestao": "Padronizar o prazo no POP de investigação de acidentes, automatizar lembretes e envolver a CIPA e os trabalhadores na análise."
+        },
+        {
+          "id": "abs",
+          "nome": "Taxa de absenteísmo",
+          "valor": 3.2092309864386914,
+          "meta": 3,
+          "unidade": "%",
+          "sentido": "menor",
+          "selos": [
+            "ESG",
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Analisar os afastamentos por setor e por causa com os dados agregados do PCMSO e concentrar as ações de saúde onde a incidência é maior."
+        },
+        {
+          "id": "part",
+          "nome": "Participação na pesquisa de clima de segurança",
+          "valor": 76.58536585365854,
+          "meta": 75,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Ampliar a janela de coleta, oferecer acesso pelo celular e por totens às equipes operacionais e reforçar a garantia de confidencialidade."
+        },
+        {
+          "id": "brig",
+          "nome": "Brigadistas com treinamento válido",
+          "valor": 100,
+          "meta": 95,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 1,
+          "sugestao": "Agendar a reciclagem imediata dos brigadistas vencidos e recrutar voluntários nos turnos com menor cobertura."
+        },
+        {
+          "id": "turn",
+          "nome": "Turnover voluntário (12 meses)",
+          "valor": 13.007556510549039,
+          "meta": 12,
+          "unidade": "%",
+          "sentido": "menor",
+          "selos": [
+            "GPTW",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Aplicar entrevistas de desligamento estruturadas e cruzar os motivos de saída com os resultados da pesquisa de clima."
+        },
+        {
+          "id": "docs",
+          "nome": "Documentos de SST vigentes",
+          "valor": 90.9090909090909,
+          "meta": 100,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Priorizar a revisão dos documentos vencidos e manter calendário de revisões com alerta automático 90 dias antes do prazo."
+        }
+      ],
+      "med": {
+        "grauRisco": "3",
+        "sesmt": [
+          {
+            "funcao": "Técnico de Segurança do Trabalho",
+            "exigido": 2,
+            "existente": 2
+          },
+          {
+            "funcao": "Engenheiro de Segurança do Trabalho",
+            "exigido": 1,
+            "existente": 0
+          },
+          {
+            "funcao": "Aux./Téc. de Enfermagem do Trabalho",
+            "exigido": 0,
+            "existente": 0
+          },
+          {
+            "funcao": "Enfermeiro do Trabalho",
+            "exigido": 0,
+            "existente": 0
+          },
+          {
+            "funcao": "Médico do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          }
+        ],
+        "asos": [
+          {
+            "tipo": "Admissional",
+            "noPrazo": 57,
+            "foraDoPrazo": 2
+          },
+          {
+            "tipo": "Periódico",
+            "noPrazo": 350,
+            "foraDoPrazo": 40
+          },
+          {
+            "tipo": "Retorno ao trabalho",
+            "noPrazo": 11,
+            "foraDoPrazo": 1
+          },
+          {
+            "tipo": "Mudança de risco",
+            "noPrazo": 8,
+            "foraDoPrazo": 0
+          },
+          {
+            "tipo": "Demissional",
+            "noPrazo": 52,
+            "foraDoPrazo": 1
+          }
+        ],
+        "periodicosTotal": 410,
+        "periodicosVencidos": 39,
+        "periodicosAVencer": 13,
+        "pendentes": [
+          {
+            "nome": "Bruno Lopes Oliveira",
+            "unidade": "GYN",
+            "setor": "Manutenção",
+            "funcao": "Assistente administrativo",
+            "ultimo": "2025-07-04",
+            "vencimento": "2026-07-04"
+          },
+          {
+            "nome": "Débora Ribeiro Moreira",
+            "unidade": "GYN",
+            "setor": "Administrativo",
+            "funcao": "Conferente",
+            "ultimo": "2025-06-17",
+            "vencimento": "2026-06-17"
+          },
+          {
+            "nome": "Henrique Barbosa Mendes",
+            "unidade": "GYN",
+            "setor": "Operações",
+            "funcao": "Analista de TI",
+            "ultimo": "2025-08-12",
+            "vencimento": "2026-08-12"
+          },
+          {
+            "nome": "Patrícia Gomes Costa",
+            "unidade": "GYN",
+            "setor": "Administrativo",
+            "funcao": "Conferente",
+            "ultimo": "2025-10-04",
+            "vencimento": "2026-10-04"
+          },
+          {
+            "nome": "Eduarda Mendes Ribeiro",
+            "unidade": "GYN",
+            "setor": "Administrativo",
+            "funcao": "Conferente",
+            "ultimo": "2025-06-18",
+            "vencimento": "2026-06-18"
+          },
+          {
+            "nome": "Felipe Pereira Gomes",
+            "unidade": "GYN",
+            "setor": "Logística",
+            "funcao": "Auxiliar de logística",
+            "ultimo": "2025-07-27",
+            "vencimento": "2026-07-27"
+          },
+          {
+            "nome": "Mariana Rodrigues Dias",
+            "unidade": "GYN",
+            "setor": "Administrativo",
+            "funcao": "Eletricista",
+            "ultimo": "2025-09-03",
+            "vencimento": "2026-09-03"
+          },
+          {
+            "nome": "Thiago Martins Ferreira",
+            "unidade": "GYN",
+            "setor": "Operações",
+            "funcao": "Atendente",
+            "ultimo": "2025-09-09",
+            "vencimento": "2026-09-09"
+          },
+          {
+            "nome": "Yasmin Cardoso Araújo",
+            "unidade": "GYN",
+            "setor": "Administrativo",
+            "funcao": "Operador de produção",
+            "ultimo": "2025-11-05",
+            "vencimento": "2026-11-05"
+          },
+          {
+            "nome": "Débora Pereira Oliveira",
+            "unidade": "GYN",
+            "setor": "Logística",
+            "funcao": "Atendente",
+            "ultimo": "2025-11-08",
+            "vencimento": "2026-11-08"
+          },
+          {
+            "nome": "Rodrigo Araújo Teixeira",
+            "unidade": "GYN",
+            "setor": "Logística",
+            "funcao": "Atendente",
+            "ultimo": "2025-10-17",
+            "vencimento": "2026-10-17"
+          },
+          {
+            "nome": "Rodrigo Vieira Rocha",
+            "unidade": "GYN",
+            "setor": "Atendimento",
+            "funcao": "Eletricista",
+            "ultimo": "2025-11-07",
+            "vencimento": "2026-11-07"
+          }
+        ],
+        "exames": [
+          {
+            "exame": "Audiometria",
+            "programados": 226,
+            "realizados": 201
+          },
+          {
+            "exame": "Hemograma completo",
+            "programados": 246,
+            "realizados": 235
+          },
+          {
+            "exame": "Glicemia de jejum",
+            "programados": 164,
+            "realizados": 156
+          },
+          {
+            "exame": "Acuidade visual",
+            "programados": 123,
+            "realizados": 116
+          },
+          {
+            "exame": "Espirometria",
+            "programados": 82,
+            "realizados": 65
+          },
+          {
+            "exame": "Raio-X de tórax (padrão OIT)",
+            "programados": 41,
+            "realizados": 32
+          }
+        ],
+        "afastamentos": {
+          "Osteomuscular": 73,
+          "Saúde mental": 63,
+          "Acidente de trabalho": 73,
+          "Respiratório": 29,
+          "Outros": 36
+        },
+        "desligamentos": 53,
+        "pppEmitidos": 50,
+        "eventos": [
+          {
+            "codigo": "S-2210",
+            "descricao": "Comunicação de Acidente de Trabalho (CAT)",
+            "prazo": "Até o 1º dia útil após o acidente; imediato em caso de óbito",
+            "enviados": 12,
+            "pendentes": 0,
+            "rejeitados": 0
+          },
+          {
+            "codigo": "S-2220",
+            "descricao": "Monitoramento da saúde do trabalhador (ASO)",
+            "prazo": "Até o dia 15 do mês seguinte ao exame",
+            "enviados": 515,
+            "pendentes": 5,
+            "rejeitados": 2
+          },
+          {
+            "codigo": "S-2240",
+            "descricao": "Condições ambientais do trabalho (agentes nocivos)",
+            "prazo": "Até o dia 15 do mês seguinte ao início ou alteração",
+            "enviados": 140,
+            "pendentes": 3,
+            "rejeitados": 1
+          }
+        ],
+        "agentes": [
+          {
+            "agente": "Ruído contínuo ou intermitente",
+            "anexo": "Anexo 1",
+            "setores": [
+              "Operações",
+              "Manutenção"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 66,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Calor",
+            "anexo": "Anexo 3",
+            "setores": [
+              "Manutenção",
+              "Logística"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 15,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Vibração",
+            "anexo": "Anexo 8",
+            "setores": [
+              "Logística"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 14,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Hidrocarbonetos e óleos minerais",
+            "anexo": "Anexo 13",
+            "setores": [
+              "Manutenção"
+            ],
+            "grau": "Máximo (40%)",
+            "expostos": 19,
+            "acimaDoLimite": 1
+          },
+          {
+            "agente": "Agentes biológicos",
+            "anexo": "Anexo 14",
+            "setores": [
+              "Atendimento"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 17,
+            "acimaDoLimite": 0
+          }
+        ]
+      }
+    },
+    "bh": {
+      "d": {
+        "unidades": [
+          {
+            "id": "bh",
+            "nome": "Filial Belo Horizonte/MG",
+            "sigla": "BH",
+            "colaboradores": 560,
+            "maturidade": 0.55,
+            "acidentesCAF": 6,
+            "acidentesSAF": 12,
+            "diasPerdidos": 138,
+            "diasSemAcidente": 9
+          }
+        ],
+        "colaboradores": 560,
+        "hht": 1108800,
+        "acidentesCAF": 6,
+        "acidentesSAF": 12,
+        "diasPerdidos": 138,
+        "diasSemAcidente": 9,
+        "mensalCAF": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "mensalSAF": [
+          0,
+          1,
+          2,
+          1,
+          1,
+          2,
+          0,
+          1,
+          0,
+          1,
+          2,
+          1
+        ],
+        "brigadistas": [
+          {
+            "id": "BH-B001",
+            "nome": "Felipe Dias Rodrigues",
+            "unidade": "BH",
+            "setor": "Operações",
+            "turno": "Manhã",
+            "treinamento": "2025-08-25",
+            "validade": "2026-08-25"
+          },
+          {
+            "id": "BH-B002",
+            "nome": "Vanessa Nunes Mendes",
+            "unidade": "BH",
+            "setor": "Logística",
+            "turno": "Tarde",
+            "treinamento": "2026-08-23",
+            "validade": "2027-08-23"
+          },
+          {
+            "id": "BH-B003",
+            "nome": "Yasmin Moreira Pereira",
+            "unidade": "BH",
+            "setor": "Manutenção",
+            "turno": "Administrativo",
+            "treinamento": "2025-12-18",
+            "validade": "2026-12-18"
+          },
+          {
+            "id": "BH-B004",
+            "nome": "Priscila Almeida Pereira",
+            "unidade": "BH",
+            "setor": "TI",
+            "turno": "Tarde",
+            "treinamento": "2025-10-19",
+            "validade": "2026-10-19"
+          },
+          {
+            "id": "BH-B005",
+            "nome": "Carla Carvalho Silva",
+            "unidade": "BH",
+            "setor": "TI",
+            "turno": "Tarde",
+            "treinamento": "2025-12-04",
+            "validade": "2026-12-04"
+          },
+          {
+            "id": "BH-B006",
+            "nome": "Henrique Freitas Gomes",
+            "unidade": "BH",
+            "setor": "Manutenção",
+            "turno": "Noite",
+            "treinamento": "2026-10-13",
+            "validade": "2027-10-13"
+          },
+          {
+            "id": "BH-B007",
+            "nome": "Leandro Freitas Cardoso",
+            "unidade": "BH",
+            "setor": "Atendimento",
+            "turno": "Noite",
+            "treinamento": "2026-06-07",
+            "validade": "2027-06-07"
+          },
+          {
+            "id": "BH-B008",
+            "nome": "Thiago Mendes Souza",
+            "unidade": "BH",
+            "setor": "Administrativo",
+            "turno": "Manhã",
+            "treinamento": "2026-01-19",
+            "validade": "2027-01-19"
+          },
+          {
+            "id": "BH-B009",
+            "nome": "João Nunes Ribeiro",
+            "unidade": "BH",
+            "setor": "Atendimento",
+            "turno": "Administrativo",
+            "treinamento": "2026-08-22",
+            "validade": "2027-08-22"
+          },
+          {
+            "id": "BH-B010",
+            "nome": "Carla Oliveira Ferreira",
+            "unidade": "BH",
+            "setor": "Logística",
+            "turno": "Tarde",
+            "treinamento": "2026-04-25",
+            "validade": "2027-04-25"
+          },
+          {
+            "id": "BH-B011",
+            "nome": "Priscila Lopes Costa",
+            "unidade": "BH",
+            "setor": "TI",
+            "turno": "Administrativo",
+            "treinamento": "2026-04-17",
+            "validade": "2027-04-17"
+          },
+          {
+            "id": "BH-B012",
+            "nome": "Karina Rodrigues Araújo",
+            "unidade": "BH",
+            "setor": "Manutenção",
+            "turno": "Administrativo",
+            "treinamento": "2026-08-10",
+            "validade": "2027-08-10"
+          },
+          {
+            "id": "BH-B013",
+            "nome": "Diego Ribeiro Rocha",
+            "unidade": "BH",
+            "setor": "Atendimento",
+            "turno": "Administrativo",
+            "treinamento": "2026-04-03",
+            "validade": "2027-04-03"
+          },
+          {
+            "id": "BH-B014",
+            "nome": "Bruno Gomes Teixeira",
+            "unidade": "BH",
+            "setor": "Logística",
+            "turno": "Administrativo",
+            "treinamento": "2026-01-13",
+            "validade": "2027-01-13"
+          },
+          {
+            "id": "BH-B015",
+            "nome": "Rodrigo Mendes Freitas",
+            "unidade": "BH",
+            "setor": "TI",
+            "turno": "Tarde",
+            "treinamento": "2026-06-04",
+            "validade": "2027-06-04"
+          },
+          {
+            "id": "BH-B016",
+            "nome": "Thiago Oliveira Costa",
+            "unidade": "BH",
+            "setor": "TI",
+            "turno": "Administrativo",
+            "treinamento": "2025-10-22",
+            "validade": "2026-10-22"
+          },
+          {
+            "id": "BH-B017",
+            "nome": "Otávio Silva Vieira",
+            "unidade": "BH",
+            "setor": "Manutenção",
+            "turno": "Tarde",
+            "treinamento": "2025-09-19",
+            "validade": "2026-09-19"
+          }
+        ],
+        "brigadistasExigidos": 16,
+        "equipamentos": [
+          {
+            "codigo": "BH-EXT-001",
+            "item": "Extintor PQS ABC 6 kg",
+            "categoria": "Extintor",
+            "local": "Sala de servidores",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2027-05-05"
+          },
+          {
+            "codigo": "BH-EXT-002",
+            "item": "Extintor PQS ABC 6 kg",
+            "categoria": "Extintor",
+            "local": "Refeitório",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2027-02-10"
+          },
+          {
+            "codigo": "BH-EXT-003",
+            "item": "Extintor PQS ABC 6 kg",
+            "categoria": "Extintor",
+            "local": "Bloco A – térreo",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2027-06-29"
+          },
+          {
+            "codigo": "BH-EXT-004",
+            "item": "Extintor CO₂ 6 kg",
+            "categoria": "Extintor",
+            "local": "Bloco A – térreo",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2027-09-11"
+          },
+          {
+            "codigo": "BH-EXT-005",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Recepção",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2026-08-30"
+          },
+          {
+            "codigo": "BH-EXT-006",
+            "item": "Extintor água pressurizada 10 L",
+            "categoria": "Extintor",
+            "local": "Refeitório",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2027-02-18"
+          },
+          {
+            "codigo": "BH-HID-001",
+            "item": "Mangueira de hidrante 15 m",
+            "categoria": "Hidrante",
+            "local": "Sala de servidores",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2027-02-28"
+          },
+          {
+            "codigo": "BH-EPI-001",
+            "item": "Máscara PFF2 (lote)",
+            "categoria": "EPI",
+            "local": "Recepção",
+            "unidade": "BH",
+            "quantidade": 330,
+            "validade": "2027-07-09"
+          },
+          {
+            "codigo": "BH-EPI-002",
+            "item": "Luva nitrílica (lote)",
+            "categoria": "EPI",
+            "local": "Doca de expedição",
+            "unidade": "BH",
+            "quantidade": 390,
+            "validade": "2026-08-10"
+          },
+          {
+            "codigo": "BH-EPI-003",
+            "item": "Protetor auricular tipo plug (lote)",
+            "categoria": "EPI",
+            "local": "Bloco A – térreo",
+            "unidade": "BH",
+            "quantidade": 250,
+            "validade": "2027-03-03"
+          },
+          {
+            "codigo": "BH-EPI-004",
+            "item": "Capacete de segurança classe B",
+            "categoria": "EPI",
+            "local": "Almoxarifado",
+            "unidade": "BH",
+            "quantidade": 110,
+            "validade": "2029-01-31"
+          },
+          {
+            "codigo": "BH-EPI-005",
+            "item": "Óculos de proteção incolor (lote)",
+            "categoria": "EPI",
+            "local": "Bloco A – térreo",
+            "unidade": "BH",
+            "quantidade": 210,
+            "validade": "2027-10-27"
+          },
+          {
+            "codigo": "BH-EPI-006",
+            "item": "Cinto paraquedista com talabarte",
+            "categoria": "EPI",
+            "local": "Doca de expedição",
+            "unidade": "BH",
+            "quantidade": 150,
+            "validade": "2027-02-10"
+          },
+          {
+            "codigo": "BH-KIT-001",
+            "item": "Kit de primeiros socorros",
+            "categoria": "Kit",
+            "local": "Bloco B – operação",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2026-10-29"
+          },
+          {
+            "codigo": "BH-KIT-002",
+            "item": "Kit de contenção de derramamento",
+            "categoria": "Kit",
+            "local": "Recepção",
+            "unidade": "BH",
+            "quantidade": 4,
+            "validade": "2026-11-06"
+          },
+          {
+            "codigo": "BH-EMG-001",
+            "item": "Eletrodos do desfibrilador (DEA)",
+            "categoria": "Emergência",
+            "local": "Bloco A – térreo",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2026-11-05"
+          },
+          {
+            "codigo": "BH-EMG-002",
+            "item": "Luminária de emergência (bateria)",
+            "categoria": "Emergência",
+            "local": "Almoxarifado",
+            "unidade": "BH",
+            "quantidade": 1,
+            "validade": "2026-12-27"
+          }
+        ],
+        "documentos": [
+          {
+            "codigo": "PGR",
+            "nome": "Programa de Gerenciamento de Riscos",
+            "tipo": "Programa",
+            "norma": "NR-1",
+            "unidade": "BH",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Bienal ou por mudança no processo",
+            "ultimaRevisao": "2026-08-26",
+            "proximaRevisao": "2028-08-25",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "PCMSO",
+            "nome": "Programa de Controle Médico de Saúde Ocupacional",
+            "tipo": "Programa",
+            "norma": "NR-7",
+            "unidade": "BH",
+            "responsavel": "Médico do Trabalho",
+            "periodicidade": "Anual (relatório analítico)",
+            "ultimaRevisao": "2025-12-10",
+            "proximaRevisao": "2026-12-10",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "LTCAT",
+            "nome": "Laudo Técnico das Condições Ambientais do Trabalho",
+            "tipo": "Laudo",
+            "norma": "Lei 8.213/91 · NR-15",
+            "unidade": "BH",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Anual ou por mudança no ambiente",
+            "ultimaRevisao": "2026-01-18",
+            "proximaRevisao": "2027-01-18",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "AET",
+            "nome": "Análise Ergonômica do Trabalho",
+            "tipo": "Laudo",
+            "norma": "NR-17",
+            "unidade": "BH",
+            "responsavel": "Ergonomista",
+            "periodicidade": "Bienal",
+            "ultimaRevisao": "2024-11-08",
+            "proximaRevisao": "2026-11-08",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "PAE",
+            "nome": "Plano de Atendimento a Emergências",
+            "tipo": "Plano",
+            "norma": "NR-23",
+            "unidade": "BH",
+            "responsavel": "Coord. da Brigada",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-02-10",
+            "proximaRevisao": "2027-02-10",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-01",
+            "nome": "Investigação e análise de acidentes",
+            "tipo": "POP",
+            "norma": "NR-1",
+            "unidade": "BH",
+            "responsavel": "Téc. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-07-22",
+            "proximaRevisao": "2027-07-22",
+            "fluxo": "Atualizado",
+            "progresso": 100
+          },
+          {
+            "codigo": "POP-SST-02",
+            "nome": "Entrega, guarda e substituição de EPI",
+            "tipo": "POP",
+            "norma": "NR-6",
+            "unidade": "BH",
+            "responsavel": "Téc. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-05-02",
+            "proximaRevisao": "2027-05-02",
+            "fluxo": "Em revisão",
+            "progresso": 85
+          },
+          {
+            "codigo": "POP-SST-03",
+            "nome": "Inspeção mensal de extintores e hidrantes",
+            "tipo": "POP",
+            "norma": "NR-23",
+            "unidade": "BH",
+            "responsavel": "Coord. da Brigada",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-08-10",
+            "proximaRevisao": "2026-08-10",
+            "fluxo": "Em revisão",
+            "progresso": 50
+          },
+          {
+            "codigo": "POP-SST-04",
+            "nome": "Emissão de CAT e envio ao eSocial (S-2210)",
+            "tipo": "POP",
+            "norma": "eSocial",
+            "unidade": "BH",
+            "responsavel": "Gestão de Pessoas",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-05-08",
+            "proximaRevisao": "2027-05-08",
+            "fluxo": "Em revisão",
+            "progresso": 58
+          },
+          {
+            "codigo": "FLX-SST-01",
+            "nome": "Fluxo de exames ocupacionais (ASO)",
+            "tipo": "Fluxo",
+            "norma": "NR-7",
+            "unidade": "BH",
+            "responsavel": "Medicina do Trabalho",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2025-12-12",
+            "proximaRevisao": "2026-12-12",
+            "fluxo": "Em revisão",
+            "progresso": 80
+          },
+          {
+            "codigo": "FLX-SST-02",
+            "nome": "Fluxo de permissão para trabalho de risco",
+            "tipo": "Fluxo",
+            "norma": "NR-10 / NR-35",
+            "unidade": "BH",
+            "responsavel": "Eng. de Segurança",
+            "periodicidade": "Anual",
+            "ultimaRevisao": "2026-08-03",
+            "proximaRevisao": "2027-08-03",
+            "fluxo": "Em revisão",
+            "progresso": 79
+          }
+        ],
+        "riscos": {
+          "Administrativo": [
+            1,
+            0,
+            0,
+            5,
+            1,
+            3
+          ],
+          "Operações": [
+            5,
+            3,
+            1,
+            3,
+            4,
+            3
+          ],
+          "Manutenção": [
+            6,
+            6,
+            1,
+            3,
+            7,
+            1
+          ],
+          "Logística": [
+            3,
+            1,
+            0,
+            5,
+            6,
+            2
+          ],
+          "Atendimento": [
+            1,
+            0,
+            4,
+            3,
+            1,
+            4
+          ],
+          "TI": [
+            1,
+            0,
+            0,
+            4,
+            1,
+            3
+          ]
+        },
+        "pesquisa": {
+          "dimensoes": [
+            {
+              "nome": "Percepção de risco",
+              "atual": 6.811033023335039,
+              "anterior": 6.3095290424302215
+            },
+            {
+              "nome": "Eficácia dos treinamentos",
+              "atual": 6.545909214392304,
+              "anterior": 6.110719608003273
+            },
+            {
+              "nome": "Segurança psicológica",
+              "atual": 5.475236296467482,
+              "anterior": 4.86021364016924
+            },
+            {
+              "nome": "Liderança engajada em SST",
+              "atual": 6.216845420002937,
+              "anterior": 6.093576910160481
+            },
+            {
+              "nome": "Comunicação de riscos",
+              "atual": 6.523157220520079,
+              "anterior": 6.652580930362455
+            },
+            {
+              "nome": "Adequação dos EPIs",
+              "atual": 6.946863083727657,
+              "anterior": 6.459028882323763
+            },
+            {
+              "nome": "Confiança no canal de reporte",
+              "atual": 5.805693575553596,
+              "anterior": 5.337474032514728
+            }
+          ],
+          "porSetor": {
+            "Administrativo": 6.681077050045133,
+            "Operações": 6.150001341290771,
+            "Manutenção": 6.021458410285413,
+            "Logística": 5.955239548161625,
+            "Atendimento": 6.488588543236256,
+            "TI": 6.775390514917671
+          },
+          "respondentes": 409,
+          "tendencia": [
+            5.488122456494185,
+            5.99984098625968,
+            5.974731863709166,
+            6.332105404857013
+          ]
+        },
+        "indicadores": {
+          "conformidadeNR1": 81.67381897568703,
+          "trustIndex": 68.11945727411657,
+          "horasTreinamento": 10.525899992324412,
+          "ncsAbertas": 7,
+          "investigacoesNoPrazo": 79.60147732365877,
+          "absenteismo": 3.246428454276174,
+          "turnover": 12.420042719785123
+        }
+      },
+      "k": {
+        "tf": 5.411255411255412,
+        "tg": 124.45887445887446,
+        "conformidadeNR1": 81.67381897568703,
+        "brigadistasAtivos": 15,
+        "indiceBrigada": 93.75,
+        "notaPercepcao": 6.332105404857013,
+        "notaAnterior": 5.974731863709166,
+        "participacao": 73.03571428571428,
+        "equipVencidos": 2,
+        "equipCriticos": 3,
+        "docsVencidos": 1,
+        "docsVigentesPct": 90.9090909090909
+      },
+      "metricas": [
+        {
+          "id": "trust",
+          "nome": "Trust Index (% de respostas favoráveis)",
+          "valor": 68.11945727411657,
+          "meta": 70,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "GPTW"
+          ],
+          "casas": 1,
+          "bloqueante": [
+            "GPTW"
+          ],
+          "sugestao": "Divulgar o resultado por área em até 30 dias, construir planos de ação com as próprias equipes e priorizar os temas de menor favorabilidade, como reconhecimento, imparcialidade e comunicação da liderança."
+        },
+        {
+          "id": "psi",
+          "nome": "Segurança psicológica (nota da pesquisa)",
+          "valor": 5.475236296467482,
+          "meta": 7.5,
+          "unidade": "",
+          "sentido": "maior",
+          "selos": [
+            "GPTW",
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Incluir os fatores de risco psicossociais no inventário do PGR, capacitar as lideranças em escuta ativa e garantir anonimato e devolutiva no canal de reporte."
+        },
+        {
+          "id": "nr1",
+          "nome": "Conformidade NR-1 / GRO",
+          "valor": 81.67381897568703,
+          "meta": 90,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Tratar os itens não conformes do checklist do GRO por ordem de risco, atualizar o plano de ação do PGR com responsáveis e prazos e registrar as evidências de implementação."
+        },
+        {
+          "id": "tf",
+          "nome": "Taxa de frequência de acidentes com afastamento",
+          "valor": 5.411255411255412,
+          "meta": 3,
+          "unidade": "",
+          "sentido": "menor",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 2,
+          "sugestao": "Reforçar a análise de causa raiz dos acidentes, ampliar as inspeções comportamentais nos setores de maior exposição e revisar as permissões para trabalho de risco."
+        },
+        {
+          "id": "horas",
+          "nome": "Horas de treinamento em SST por colaborador/ano",
+          "valor": 10.525899992324412,
+          "meta": 12,
+          "unidade": "h",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG",
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Montar trilha anual obrigatória por função, com integração, NRs aplicáveis e reciclagens em formatos curtos, e acompanhar a presença por unidade."
+        },
+        {
+          "id": "ncs",
+          "nome": "Não conformidades abertas na auditoria interna de SST",
+          "valor": 7,
+          "meta": 3,
+          "unidade": "",
+          "sentido": "menor",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 0,
+          "sugestao": "Fazer mutirão de tratamento das não conformidades com análise de causa, definir responsável e prazo para cada uma e verificar a eficácia antes da auditoria externa."
+        },
+        {
+          "id": "invest",
+          "nome": "Investigações de incidentes concluídas no prazo",
+          "valor": 79.60147732365877,
+          "meta": 90,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 1,
+          "sugestao": "Padronizar o prazo no POP de investigação de acidentes, automatizar lembretes e envolver a CIPA e os trabalhadores na análise."
+        },
+        {
+          "id": "abs",
+          "nome": "Taxa de absenteísmo",
+          "valor": 3.246428454276174,
+          "meta": 3,
+          "unidade": "%",
+          "sentido": "menor",
+          "selos": [
+            "ESG",
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Analisar os afastamentos por setor e por causa com os dados agregados do PCMSO e concentrar as ações de saúde onde a incidência é maior."
+        },
+        {
+          "id": "part",
+          "nome": "Participação na pesquisa de clima de segurança",
+          "valor": 73.03571428571428,
+          "meta": 75,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "GPTW"
+          ],
+          "casas": 1,
+          "sugestao": "Ampliar a janela de coleta, oferecer acesso pelo celular e por totens às equipes operacionais e reforçar a garantia de confidencialidade."
+        },
+        {
+          "id": "brig",
+          "nome": "Brigadistas com treinamento válido",
+          "valor": 93.75,
+          "meta": 95,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001"
+          ],
+          "casas": 1,
+          "sugestao": "Agendar a reciclagem imediata dos brigadistas vencidos e recrutar voluntários nos turnos com menor cobertura."
+        },
+        {
+          "id": "turn",
+          "nome": "Turnover voluntário (12 meses)",
+          "valor": 12.420042719785123,
+          "meta": 12,
+          "unidade": "%",
+          "sentido": "menor",
+          "selos": [
+            "GPTW",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Aplicar entrevistas de desligamento estruturadas e cruzar os motivos de saída com os resultados da pesquisa de clima."
+        },
+        {
+          "id": "docs",
+          "nome": "Documentos de SST vigentes",
+          "valor": 90.9090909090909,
+          "meta": 100,
+          "unidade": "%",
+          "sentido": "maior",
+          "selos": [
+            "ISO 45001",
+            "ESG"
+          ],
+          "casas": 1,
+          "sugestao": "Priorizar a revisão dos documentos vencidos e manter calendário de revisões com alerta automático 90 dias antes do prazo."
+        }
+      ],
+      "med": {
+        "grauRisco": "3",
+        "sesmt": [
+          {
+            "funcao": "Técnico de Segurança do Trabalho",
+            "exigido": 3,
+            "existente": 2
+          },
+          {
+            "funcao": "Engenheiro de Segurança do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          },
+          {
+            "funcao": "Aux./Téc. de Enfermagem do Trabalho",
+            "exigido": 1,
+            "existente": 0
+          },
+          {
+            "funcao": "Enfermeiro do Trabalho",
+            "exigido": 0,
+            "existente": 0
+          },
+          {
+            "funcao": "Médico do Trabalho",
+            "exigido": 1,
+            "existente": 1
+          }
+        ],
+        "asos": [
+          {
+            "tipo": "Admissional",
+            "noPrazo": 74,
+            "foraDoPrazo": 3
+          },
+          {
+            "tipo": "Periódico",
+            "noPrazo": 479,
+            "foraDoPrazo": 53
+          },
+          {
+            "tipo": "Retorno ao trabalho",
+            "noPrazo": 16,
+            "foraDoPrazo": 1
+          },
+          {
+            "tipo": "Mudança de risco",
+            "noPrazo": 10,
+            "foraDoPrazo": 1
+          },
+          {
+            "tipo": "Demissional",
+            "noPrazo": 66,
+            "foraDoPrazo": 4
+          }
+        ],
+        "periodicosTotal": 560,
+        "periodicosVencidos": 57,
+        "periodicosAVencer": 15,
+        "pendentes": [
+          {
+            "nome": "Patrícia Rodrigues Carvalho",
+            "unidade": "BH",
+            "setor": "Atendimento",
+            "funcao": "Técnico de manutenção",
+            "ultimo": "2025-09-05",
+            "vencimento": "2026-09-05"
+          },
+          {
+            "nome": "Isabela Nunes Lopes",
+            "unidade": "BH",
+            "setor": "Administrativo",
+            "funcao": "Eletricista",
+            "ultimo": "2025-07-26",
+            "vencimento": "2026-07-26"
+          },
+          {
+            "nome": "Rodrigo Souza Almeida",
+            "unidade": "BH",
+            "setor": "Logística",
+            "funcao": "Operador de produção",
+            "ultimo": "2025-09-04",
+            "vencimento": "2026-09-04"
+          },
+          {
+            "nome": "Yasmin Martins Ribeiro",
+            "unidade": "BH",
+            "setor": "Administrativo",
+            "funcao": "Eletricista",
+            "ultimo": "2025-06-10",
+            "vencimento": "2026-06-10"
+          },
+          {
+            "nome": "Patrícia Moreira Teixeira",
+            "unidade": "BH",
+            "setor": "Atendimento",
+            "funcao": "Eletricista",
+            "ultimo": "2025-09-22",
+            "vencimento": "2026-09-22"
+          },
+          {
+            "nome": "Mariana Carvalho Moreira",
+            "unidade": "BH",
+            "setor": "Operações",
+            "funcao": "Auxiliar de logística",
+            "ultimo": "2025-06-21",
+            "vencimento": "2026-06-21"
+          },
+          {
+            "nome": "Yasmin Barbosa Oliveira",
+            "unidade": "BH",
+            "setor": "Administrativo",
+            "funcao": "Operador de produção",
+            "ultimo": "2025-08-13",
+            "vencimento": "2026-08-13"
+          },
+          {
+            "nome": "Diego Mendes Rocha",
+            "unidade": "BH",
+            "setor": "Administrativo",
+            "funcao": "Atendente",
+            "ultimo": "2025-07-10",
+            "vencimento": "2026-07-10"
+          },
+          {
+            "nome": "Fábio Cardoso Freitas",
+            "unidade": "BH",
+            "setor": "Atendimento",
+            "funcao": "Assistente administrativo",
+            "ultimo": "2025-10-20",
+            "vencimento": "2026-10-20"
+          },
+          {
+            "nome": "João Nunes Nunes",
+            "unidade": "BH",
+            "setor": "Logística",
+            "funcao": "Conferente",
+            "ultimo": "2025-11-15",
+            "vencimento": "2026-11-15"
+          },
+          {
+            "nome": "Fábio Ferreira Moreira",
+            "unidade": "BH",
+            "setor": "TI",
+            "funcao": "Técnico de manutenção",
+            "ultimo": "2025-11-03",
+            "vencimento": "2026-11-03"
+          },
+          {
+            "nome": "Karina Lopes Rodrigues",
+            "unidade": "BH",
+            "setor": "Atendimento",
+            "funcao": "Eletricista",
+            "ultimo": "2025-10-26",
+            "vencimento": "2026-10-26"
+          }
+        ],
+        "exames": [
+          {
+            "exame": "Audiometria",
+            "programados": 308,
+            "realizados": 266
+          },
+          {
+            "exame": "Hemograma completo",
+            "programados": 336,
+            "realizados": 321
+          },
+          {
+            "exame": "Glicemia de jejum",
+            "programados": 224,
+            "realizados": 214
+          },
+          {
+            "exame": "Acuidade visual",
+            "programados": 168,
+            "realizados": 153
+          },
+          {
+            "exame": "Espirometria",
+            "programados": 112,
+            "realizados": 91
+          },
+          {
+            "exame": "Raio-X de tórax (padrão OIT)",
+            "programados": 56,
+            "realizados": 44
+          }
+        ],
+        "afastamentos": {
+          "Osteomuscular": 135,
+          "Saúde mental": 108,
+          "Acidente de trabalho": 138,
+          "Respiratório": 40,
+          "Outros": 50
+        },
+        "desligamentos": 70,
+        "pppEmitidos": 63,
+        "eventos": [
+          {
+            "codigo": "S-2210",
+            "descricao": "Comunicação de Acidente de Trabalho (CAT)",
+            "prazo": "Até o 1º dia útil após o acidente; imediato em caso de óbito",
+            "enviados": 17,
+            "pendentes": 1,
+            "rejeitados": 0
+          },
+          {
+            "codigo": "S-2220",
+            "descricao": "Monitoramento da saúde do trabalhador (ASO)",
+            "prazo": "Até o dia 15 do mês seguinte ao exame",
+            "enviados": 694,
+            "pendentes": 10,
+            "rejeitados": 3
+          },
+          {
+            "codigo": "S-2240",
+            "descricao": "Condições ambientais do trabalho (agentes nocivos)",
+            "prazo": "Até o dia 15 do mês seguinte ao início ou alteração",
+            "enviados": 189,
+            "pendentes": 5,
+            "rejeitados": 2
+          }
+        ],
+        "agentes": [
+          {
+            "agente": "Ruído contínuo ou intermitente",
+            "anexo": "Anexo 1",
+            "setores": [
+              "Operações",
+              "Manutenção"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 123,
+            "acimaDoLimite": 1
+          },
+          {
+            "agente": "Calor",
+            "anexo": "Anexo 3",
+            "setores": [
+              "Manutenção",
+              "Logística"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 29,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Vibração",
+            "anexo": "Anexo 8",
+            "setores": [
+              "Logística"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 20,
+            "acimaDoLimite": 1
+          },
+          {
+            "agente": "Hidrocarbonetos e óleos minerais",
+            "anexo": "Anexo 13",
+            "setores": [
+              "Manutenção"
+            ],
+            "grau": "Máximo (40%)",
+            "expostos": 31,
+            "acimaDoLimite": 0
+          },
+          {
+            "agente": "Agentes biológicos",
+            "anexo": "Anexo 14",
+            "setores": [
+              "Atendimento"
+            ],
+            "grau": "Médio (20%)",
+            "expostos": 34,
+            "acimaDoLimite": 0
+          }
+        ]
+      }
+    }
+  },
+  "kpisConsolidado": {
+    "tf": 3.0921459492888066,
+    "tg": 59.95327423898853,
+    "conformidadeNR1": 86.8284271195664,
+    "brigadistasAtivos": 80,
+    "indiceBrigada": 97.5609756097561,
+    "notaPercepcao": 7.091733796530648,
+    "notaAnterior": 6.8450720702277215,
+    "participacao": 80.68027210884354,
+    "equipVencidos": 8,
+    "equipCriticos": 7,
+    "docsVencidos": 3,
+    "docsVigentesPct": 93.33333333333333
+  },
+  "metricasConsolidado": [
+    {
+      "id": "trust",
+      "nome": "Trust Index (% de respostas favoráveis)",
+      "valor": 71.92515721535958,
+      "meta": 70,
+      "unidade": "%",
+      "sentido": "maior",
+      "selos": [
+        "GPTW"
+      ],
+      "casas": 1,
+      "bloqueante": [
+        "GPTW"
+      ],
+      "sugestao": "Divulgar o resultado por área em até 30 dias, construir planos de ação com as próprias equipes e priorizar os temas de menor favorabilidade, como reconhecimento, imparcialidade e comunicação da liderança."
+    },
+    {
+      "id": "psi",
+      "nome": "Segurança psicológica (nota da pesquisa)",
+      "valor": 6.43964903006663,
+      "meta": 7.5,
+      "unidade": "",
+      "sentido": "maior",
+      "selos": [
+        "GPTW",
+        "ISO 45001",
+        "ESG"
+      ],
+      "casas": 1,
+      "sugestao": "Incluir os fatores de risco psicossociais no inventário do PGR, capacitar as lideranças em escuta ativa e garantir anonimato e devolutiva no canal de reporte."
+    },
+    {
+      "id": "nr1",
+      "nome": "Conformidade NR-1 / GRO",
+      "valor": 86.8284271195664,
+      "meta": 90,
+      "unidade": "%",
+      "sentido": "maior",
+      "selos": [
+        "ISO 45001",
+        "ESG"
+      ],
+      "casas": 1,
+      "sugestao": "Tratar os itens não conformes do checklist do GRO por ordem de risco, atualizar o plano de ação do PGR com responsáveis e prazos e registrar as evidências de implementação."
+    },
+    {
+      "id": "tf",
+      "nome": "Taxa de frequência de acidentes com afastamento",
+      "valor": 3.0921459492888066,
+      "meta": 3,
+      "unidade": "",
+      "sentido": "menor",
+      "selos": [
+        "ISO 45001",
+        "ESG"
+      ],
+      "casas": 2,
+      "sugestao": "Reforçar a análise de causa raiz dos acidentes, ampliar as inspeções comportamentais nos setores de maior exposição e revisar as permissões para trabalho de risco."
+    },
+    {
+      "id": "horas",
+      "nome": "Horas de treinamento em SST por colaborador/ano",
+      "valor": 12.476113269780921,
+      "meta": 12,
+      "unidade": "h",
+      "sentido": "maior",
+      "selos": [
+        "ISO 45001",
+        "ESG",
+        "GPTW"
+      ],
+      "casas": 1,
+      "sugestao": "Montar trilha anual obrigatória por função, com integração, NRs aplicáveis e reciclagens em formatos curtos, e acompanhar a presença por unidade."
+    },
+    {
+      "id": "ncs",
+      "nome": "Não conformidades abertas na auditoria interna de SST",
+      "valor": 18,
+      "meta": 12,
+      "unidade": "",
+      "sentido": "menor",
+      "selos": [
+        "ISO 45001"
+      ],
+      "casas": 0,
+      "sugestao": "Fazer mutirão de tratamento das não conformidades com análise de causa, definir responsável e prazo para cada uma e verificar a eficácia antes da auditoria externa."
+    },
+    {
+      "id": "invest",
+      "nome": "Investigações de incidentes concluídas no prazo",
+      "valor": 87.08333793497525,
+      "meta": 90,
+      "unidade": "%",
+      "sentido": "maior",
+      "selos": [
+        "ISO 45001"
+      ],
+      "casas": 1,
+      "sugestao": "Padronizar o prazo no POP de investigação de acidentes, automatizar lembretes e envolver a CIPA e os trabalhadores na análise."
+    },
+    {
+      "id": "abs",
+      "nome": "Taxa de absenteísmo",
+      "valor": 2.8556781383856853,
+      "meta": 3,
+      "unidade": "%",
+      "sentido": "menor",
+      "selos": [
+        "ESG",
+        "GPTW"
+      ],
+      "casas": 1,
+      "sugestao": "Analisar os afastamentos por setor e por causa com os dados agregados do PCMSO e concentrar as ações de saúde onde a incidência é maior."
+    },
+    {
+      "id": "part",
+      "nome": "Participação na pesquisa de clima de segurança",
+      "valor": 80.68027210884354,
+      "meta": 75,
+      "unidade": "%",
+      "sentido": "maior",
+      "selos": [
+        "GPTW"
+      ],
+      "casas": 1,
+      "sugestao": "Ampliar a janela de coleta, oferecer acesso pelo celular e por totens às equipes operacionais e reforçar a garantia de confidencialidade."
+    },
+    {
+      "id": "brig",
+      "nome": "Brigadistas com treinamento válido",
+      "valor": 97.5609756097561,
+      "meta": 95,
+      "unidade": "%",
+      "sentido": "maior",
+      "selos": [
+        "ISO 45001"
+      ],
+      "casas": 1,
+      "sugestao": "Agendar a reciclagem imediata dos brigadistas vencidos e recrutar voluntários nos turnos com menor cobertura."
+    },
+    {
+      "id": "turn",
+      "nome": "Turnover voluntário (12 meses)",
+      "valor": 11.025795758433425,
+      "meta": 12,
+      "unidade": "%",
+      "sentido": "menor",
+      "selos": [
+        "GPTW",
+        "ESG"
+      ],
+      "casas": 1,
+      "sugestao": "Aplicar entrevistas de desligamento estruturadas e cruzar os motivos de saída com os resultados da pesquisa de clima."
+    },
+    {
+      "id": "docs",
+      "nome": "Documentos de SST vigentes",
+      "valor": 93.33333333333333,
+      "meta": 100,
+      "unidade": "%",
+      "sentido": "maior",
+      "selos": [
+        "ISO 45001",
+        "ESG"
+      ],
+      "casas": 1,
+      "sugestao": "Priorizar a revisão dos documentos vencidos e manter calendário de revisões com alerta automático 90 dias antes do prazo."
+    }
+  ],
+  "alertasConsolidado": [
+    {
+      "severidade": "critico",
+      "aba": "riscos",
+      "titulo": "8 equipamento(s) com validade vencida",
+      "detalhe": "Extintor água pressurizada 10 L (BSB-EXT-005); Extintor PQS ABC 6 kg (GYN-EXT-001) e mais 6"
+    },
+    {
+      "severidade": "critico",
+      "aba": "riscos",
+      "titulo": "9 brigadista(s) com treinamento vencido",
+      "detalhe": "Rodrigo Ferreira Carvalho (BSB); Vanessa Rodrigues Cardoso (BSB) e mais 7"
+    },
+    {
+      "severidade": "critico",
+      "aba": "governanca",
+      "titulo": "3 documento(s) de SST fora da vigência",
+      "detalhe": "POP-SST-02 – SP; POP-SST-02 – GYN e mais 1"
+    },
+    {
+      "severidade": "critico",
+      "aba": "visao",
+      "titulo": "Taxa de frequência acima da meta",
+      "detalhe": "TF de 3,09 para meta de até 3,00 acidentes com afastamento por milhão de HHT."
+    },
+    {
+      "severidade": "critico",
+      "aba": "certificacoes",
+      "titulo": "2 indicador(es) em alerta vermelho para certificações",
+      "detalhe": "Segurança psicológica (nota da pesquisa); Não conformidades abertas na auditoria interna de SST"
+    },
+    {
+      "severidade": "critico",
+      "aba": "medicina",
+      "titulo": "210 ASO(s) periódico(s) vencido(s)",
+      "detalhe": "PCMSO (NR-7): agendar os exames e enviar o S-2220 ao eSocial."
+    },
+    {
+      "severidade": "critico",
+      "aba": "medicina",
+      "titulo": "SESMT abaixo do dimensionamento",
+      "detalhe": "Técnico de Segurança do Trabalho (falta 1); Engenheiro de Segurança do Trabalho (falta 1); Aux./Téc. de Enfermagem do Trabalho (falta 1)"
+    },
+    {
+      "severidade": "critico",
+      "aba": "medicina",
+      "titulo": "13 evento(s) de SST rejeitado(s) no eSocial",
+      "detalhe": "Corrigir e reenviar para evitar inconsistência no PPP eletrônico."
+    },
+    {
+      "severidade": "atencao",
+      "aba": "certificacoes",
+      "titulo": "Conformidade NR-1 abaixo da meta",
+      "detalhe": "Resultado de 86,8% para meta de 90%."
+    },
+    {
+      "severidade": "atencao",
+      "aba": "riscos",
+      "titulo": "7 equipamento(s) vencem em até 30 dias",
+      "detalhe": "Óculos de proteção incolor (lote) (BSB-EPI-005); Máscara PFF2 (lote) (SP-EPI-001) e mais 5"
+    },
+    {
+      "severidade": "atencao",
+      "aba": "riscos",
+      "titulo": "11 treinamento(s) de brigada vencem em até 30 dias",
+      "detalhe": "Programar a reciclagem antes do vencimento."
+    },
+    {
+      "severidade": "atencao",
+      "aba": "percepcao",
+      "titulo": "2 dimensão(ões) da pesquisa abaixo de 6,5",
+      "detalhe": "Segurança psicológica; Confiança no canal de reporte"
+    },
+    {
+      "severidade": "atencao",
+      "aba": "medicina",
+      "titulo": "47 evento(s) de SST pendente(s) no eSocial",
+      "detalhe": "S-2210, S-2220 e S-2240 dentro do prazo legal."
+    },
+    {
+      "severidade": "atencao",
+      "aba": "medicina",
+      "titulo": "21 desligamento(s) sem PPP disponível",
+      "detalhe": "Conferir os eventos de SST do trabalhador antes do encerramento."
+    }
+  ],
+  "sesmtConfig": {
+    "bsb": {
+      "grau": 2,
+      "exigido": [
+        2,
+        1,
+        1,
+        0,
+        1
+      ],
+      "existente": [
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "sp": {
+      "grau": 3,
+      "exigido": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "existente": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "gyn": {
+      "grau": 3,
+      "exigido": [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      "existente": [
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "bh": {
+      "grau": 3,
+      "exigido": [
+        3,
+        1,
+        1,
+        0,
+        1
+      ],
+      "existente": [
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    }
+  }
+}

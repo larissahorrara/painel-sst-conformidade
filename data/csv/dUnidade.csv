@@ -1,0 +1,5 @@
+id_unidade,nome_unidade,tipo,cidade,uf,colaboradores,horas_homem_ano,grau_risco
+BSB,Matriz – Brasília/DF,Matriz,Brasília,DF,820,1623600,2
+SP,Filial São Paulo/SP,Filial,São Paulo,SP,1150,2277000,3
+GYN,Filial Goiânia/GO,Filial,Goiânia,GO,410,811800,3
+BH,Filial Belo Horizonte/MG,Filial,Belo Horizonte,MG,560,1108800,3

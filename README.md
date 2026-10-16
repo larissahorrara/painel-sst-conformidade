@@ -5,12 +5,12 @@
 <h1 align="center">Painel de SST e Conformidade</h1>
 
 <p align="center">
-  ![status](https://img.shields.io/badge/status-demonstra%C3%A7%C3%A3o-1E3A5F)
-  ![dados](https://img.shields.io/badge/dados-fict%C3%ADcios-A4262C)
-  ![HTML](https://img.shields.io/badge/HTML-arquivo%20%C3%BAnico-E34F26)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6)
-  ![Chart.js](https://img.shields.io/badge/Chart.js-4.4-FF6384)
-  ![Power BI](https://img.shields.io/badge/Power%20BI-modelo%20estrela%20%2B%20DAX-F2C811)
+  <img alt="status: demonstração" src="https://img.shields.io/badge/status-demonstra%C3%A7%C3%A3o-1E3A5F">
+  <img alt="dados: fictícios" src="https://img.shields.io/badge/dados-fict%C3%ADcios-A4262C">
+  <img alt="HTML: arquivo único" src="https://img.shields.io/badge/HTML-arquivo%20%C3%BAnico-E34F26">
+  <img alt="TypeScript 5.4" src="https://img.shields.io/badge/TypeScript-5.4-3178C6">
+  <img alt="Chart.js 4.4" src="https://img.shields.io/badge/Chart.js-4.4-FF6384">
+  <img alt="Power BI: modelo estrela e DAX" src="https://img.shields.io/badge/Power%20BI-modelo%20estrela%20%2B%20DAX-F2C811">
 </p>
 
 <p align="center">
@@ -586,4 +586,3 @@ Sugestões e correções são bem-vindas. Veja [CONTRIBUTING.md](CONTRIBUTING.md
 ## Autoria
 
 Projeto desenvolvido por **Larissa Almeida** ([@larissahorrara](https://github.com/larissahorrara)).
-

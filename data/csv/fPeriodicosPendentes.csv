@@ -1,0 +1,49 @@
+nome,id_unidade,setor,funcao,data_ultimo_periodico,data_vencimento,dias_para_vencimento,situacao
+Caio Carvalho Pereira,BSB,TI,Eletricista,2025-10-03,2026-10-03,-13,Vencido
+Lucas Moreira Lopes,BSB,Atendimento,Técnico de manutenção,2025-06-03,2026-06-03,-135,Vencido
+Yasmin Ferreira Souza,BSB,TI,Técnico de manutenção,2025-05-19,2026-05-19,-150,Vencido
+Mariana Rodrigues Silva,BSB,Atendimento,Conferente,2025-05-22,2026-05-22,-147,Vencido
+Wesley Dias Cardoso,BSB,Administrativo,Analista de TI,2025-08-19,2026-08-19,-58,Vencido
+Rodrigo Teixeira Pereira,BSB,Operações,Técnico de manutenção,2025-05-19,2026-05-19,-150,Vencido
+Priscila Costa Dias,BSB,Logística,Técnico de manutenção,2025-08-10,2026-08-10,-67,Vencido
+Eduarda Costa Moreira,BSB,TI,Assistente administrativo,2025-08-25,2026-08-25,-52,Vencido
+Eduarda Cardoso Costa,BSB,TI,Eletricista,2025-10-27,2026-10-27,11,Vence em até 30 dias
+Otávio Vieira Barbosa,BSB,Operações,Atendente,2025-10-17,2026-10-17,1,Vence em até 30 dias
+Vanessa Pereira Rocha,BSB,TI,Analista de TI,2025-10-24,2026-10-24,8,Vence em até 30 dias
+Rodrigo Barbosa Gomes,BSB,Administrativo,Auxiliar de logística,2025-11-14,2026-11-14,29,Vence em até 30 dias
+Caio Martins Costa,SP,Logística,Assistente administrativo,2025-07-07,2026-07-07,-101,Vencido
+Tatiane Silva Almeida,SP,TI,Técnico de manutenção,2025-07-11,2026-07-11,-97,Vencido
+Priscila Ferreira Vieira,SP,Atendimento,Conferente,2025-10-08,2026-10-08,-8,Vencido
+Isabela Souza Rocha,SP,TI,Eletricista,2025-05-22,2026-05-22,-147,Vencido
+Fábio Mendes Souza,SP,Atendimento,Eletricista,2025-06-27,2026-06-27,-111,Vencido
+Otávio Vieira Ferreira,SP,Administrativo,Eletricista,2025-10-12,2026-10-12,-4,Vencido
+Sabrina Rocha Ferreira,SP,TI,Auxiliar de logística,2025-10-10,2026-10-10,-6,Vencido
+Sabrina Araújo Costa,SP,Logística,Auxiliar de logística,2025-09-26,2026-09-26,-20,Vencido
+Fábio Rodrigues Souza,SP,TI,Auxiliar de logística,2025-10-21,2026-10-21,5,Vence em até 30 dias
+Eduarda Almeida Mendes,SP,Administrativo,Analista de TI,2025-11-02,2026-11-02,17,Vence em até 30 dias
+Caio Silva Cardoso,SP,Logística,Eletricista,2025-10-22,2026-10-22,6,Vence em até 30 dias
+Gabriela Teixeira Ribeiro,SP,Atendimento,Eletricista,2025-10-17,2026-10-17,1,Vence em até 30 dias
+Bruno Lopes Oliveira,GYN,Manutenção,Assistente administrativo,2025-07-04,2026-07-04,-104,Vencido
+Débora Ribeiro Moreira,GYN,Administrativo,Conferente,2025-06-17,2026-06-17,-121,Vencido
+Henrique Barbosa Mendes,GYN,Operações,Analista de TI,2025-08-12,2026-08-12,-65,Vencido
+Patrícia Gomes Costa,GYN,Administrativo,Conferente,2025-10-04,2026-10-04,-12,Vencido
+Eduarda Mendes Ribeiro,GYN,Administrativo,Conferente,2025-06-18,2026-06-18,-120,Vencido
+Felipe Pereira Gomes,GYN,Logística,Auxiliar de logística,2025-07-27,2026-07-27,-81,Vencido
+Mariana Rodrigues Dias,GYN,Administrativo,Eletricista,2025-09-03,2026-09-03,-43,Vencido
+Thiago Martins Ferreira,GYN,Operações,Atendente,2025-09-09,2026-09-09,-37,Vencido
+Yasmin Cardoso Araújo,GYN,Administrativo,Operador de produção,2025-11-05,2026-11-05,20,Vence em até 30 dias
+Débora Pereira Oliveira,GYN,Logística,Atendente,2025-11-08,2026-11-08,23,Vence em até 30 dias
+Rodrigo Araújo Teixeira,GYN,Logística,Atendente,2025-10-17,2026-10-17,1,Vence em até 30 dias
+Rodrigo Vieira Rocha,GYN,Atendimento,Eletricista,2025-11-07,2026-11-07,22,Vence em até 30 dias
+Patrícia Rodrigues Carvalho,BH,Atendimento,Técnico de manutenção,2025-09-05,2026-09-05,-41,Vencido
+Isabela Nunes Lopes,BH,Administrativo,Eletricista,2025-07-26,2026-07-26,-82,Vencido
+Rodrigo Souza Almeida,BH,Logística,Operador de produção,2025-09-04,2026-09-04,-42,Vencido
+Yasmin Martins Ribeiro,BH,Administrativo,Eletricista,2025-06-10,2026-06-10,-128,Vencido
+Patrícia Moreira Teixeira,BH,Atendimento,Eletricista,2025-09-22,2026-09-22,-24,Vencido
+Mariana Carvalho Moreira,BH,Operações,Auxiliar de logística,2025-06-21,2026-06-21,-117,Vencido
+Yasmin Barbosa Oliveira,BH,Administrativo,Operador de produção,2025-08-13,2026-08-13,-64,Vencido
+Diego Mendes Rocha,BH,Administrativo,Atendente,2025-07-10,2026-07-10,-98,Vencido
+Fábio Cardoso Freitas,BH,Atendimento,Assistente administrativo,2025-10-20,2026-10-20,4,Vence em até 30 dias
+João Nunes Nunes,BH,Logística,Conferente,2025-11-15,2026-11-15,30,Vence em até 30 dias
+Fábio Ferreira Moreira,BH,TI,Técnico de manutenção,2025-11-03,2026-11-03,18,Vence em até 30 dias
+Karina Lopes Rodrigues,BH,Atendimento,Eletricista,2025-10-26,2026-10-26,10,Vence em até 30 dias

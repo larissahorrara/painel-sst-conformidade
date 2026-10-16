@@ -1,0 +1,21 @@
+id_unidade,grupo_causa,dias_afastamento
+BSB,Osteomuscular,106
+BSB,Saúde mental,90
+BSB,Acidente de trabalho,41
+BSB,Respiratório,51
+BSB,Outros,49
+SP,Osteomuscular,175
+SP,Saúde mental,171
+SP,Acidente de trabalho,97
+SP,Respiratório,60
+SP,Outros,78
+GYN,Osteomuscular,73
+GYN,Saúde mental,63
+GYN,Acidente de trabalho,73
+GYN,Respiratório,29
+GYN,Outros,36
+BH,Osteomuscular,135
+BH,Saúde mental,108
+BH,Acidente de trabalho,138
+BH,Respiratório,40
+BH,Outros,50

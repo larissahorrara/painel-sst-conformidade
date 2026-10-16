@@ -1,0 +1,68 @@
+codigo,item,categoria,local,id_unidade,quantidade,data_validade,dias_para_vencimento,situacao
+BSB-EXT-001,Extintor PQS ABC 6 kg,Extintor,Almoxarifado,BSB,1,2027-05-21,217,Em dia
+BSB-EXT-002,Extintor PQS ABC 6 kg,Extintor,Sala de servidores,BSB,1,2027-07-07,264,Em dia
+BSB-EXT-003,Extintor CO₂ 6 kg,Extintor,Bloco A – térreo,BSB,1,2027-09-24,343,Em dia
+BSB-EXT-004,Extintor água pressurizada 10 L,Extintor,Oficina de manutenção,BSB,1,2027-04-18,184,Em dia
+BSB-EXT-005,Extintor água pressurizada 10 L,Extintor,Recepção,BSB,1,2026-09-29,-17,Vencido
+BSB-EXT-006,Extintor água pressurizada 10 L,Extintor,Bloco A – térreo,BSB,1,2027-03-07,142,Em dia
+BSB-HID-001,Mangueira de hidrante 15 m,Hidrante,Recepção,BSB,1,2027-04-30,196,Em dia
+BSB-EPI-001,Máscara PFF2 (lote),EPI,Almoxarifado,BSB,250,2027-08-31,319,Em dia
+BSB-EPI-002,Luva nitrílica (lote),EPI,Bloco B – operação,BSB,270,2027-02-09,116,Em dia
+BSB-EPI-003,Protetor auricular tipo plug (lote),EPI,Bloco A – 1º andar,BSB,380,2028-02-22,494,Em dia
+BSB-EPI-004,Capacete de segurança classe B,EPI,Bloco A – 1º andar,BSB,80,2026-12-22,67,31 a 90 dias
+BSB-EPI-005,Óculos de proteção incolor (lote),EPI,Bloco A – 1º andar,BSB,280,2026-11-12,27,Até 30 dias
+BSB-EPI-006,Cinto paraquedista com talabarte,EPI,Oficina de manutenção,BSB,120,2027-01-14,90,31 a 90 dias
+BSB-KIT-001,Kit de primeiros socorros,Kit,Recepção,BSB,3,2027-05-20,216,Em dia
+BSB-KIT-002,Kit de contenção de derramamento,Kit,Almoxarifado,BSB,4,2027-02-09,116,Em dia
+BSB-EMG-001,Eletrodos do desfibrilador (DEA),Emergência,Bloco A – térreo,BSB,1,2026-11-17,32,31 a 90 dias
+BSB-EMG-002,Luminária de emergência (bateria),Emergência,Recepção,BSB,1,2027-05-29,225,Em dia
+SP-EXT-001,Extintor PQS ABC 6 kg,Extintor,Recepção,SP,1,2027-01-10,86,31 a 90 dias
+SP-EXT-002,Extintor PQS ABC 6 kg,Extintor,Sala de servidores,SP,1,2026-12-08,53,31 a 90 dias
+SP-EXT-003,Extintor CO₂ 6 kg,Extintor,Refeitório,SP,1,2027-01-16,92,Em dia
+SP-EXT-004,Extintor CO₂ 6 kg,Extintor,Bloco A – 1º andar,SP,1,2027-07-02,259,Em dia
+SP-EXT-005,Extintor água pressurizada 10 L,Extintor,Almoxarifado,SP,1,2027-07-13,270,Em dia
+SP-EXT-006,Extintor água pressurizada 10 L,Extintor,Sala de servidores,SP,1,2027-05-28,224,Em dia
+SP-HID-001,Mangueira de hidrante 15 m,Hidrante,Sala de servidores,SP,1,2027-09-28,347,Em dia
+SP-EPI-001,Máscara PFF2 (lote),EPI,Bloco A – térreo,SP,60,2026-11-07,22,Até 30 dias
+SP-EPI-002,Luva nitrílica (lote),EPI,Recepção,SP,70,2028-03-25,526,Em dia
+SP-EPI-003,Protetor auricular tipo plug (lote),EPI,Doca de expedição,SP,210,2028-08-18,672,Em dia
+SP-EPI-004,Capacete de segurança classe B,EPI,Refeitório,SP,50,2027-01-19,95,Em dia
+SP-EPI-005,Óculos de proteção incolor (lote),EPI,Almoxarifado,SP,90,2027-01-06,82,31 a 90 dias
+SP-EPI-006,Cinto paraquedista com talabarte,EPI,Recepção,SP,310,2027-01-21,97,Em dia
+SP-KIT-001,Kit de primeiros socorros,Kit,Sala de servidores,SP,1,2026-11-05,20,Até 30 dias
+SP-KIT-002,Kit de contenção de derramamento,Kit,Bloco A – 1º andar,SP,2,2027-02-12,119,Em dia
+SP-EMG-001,Eletrodos do desfibrilador (DEA),Emergência,Almoxarifado,SP,1,2027-03-19,154,Em dia
+SP-EMG-002,Luminária de emergência (bateria),Emergência,Bloco A – 1º andar,SP,1,2026-12-10,55,31 a 90 dias
+GYN-EXT-001,Extintor PQS ABC 6 kg,Extintor,Recepção,GYN,1,2026-10-01,-15,Vencido
+GYN-EXT-002,Extintor CO₂ 6 kg,Extintor,Recepção,GYN,1,2027-06-10,237,Em dia
+GYN-EXT-003,Extintor água pressurizada 10 L,Extintor,Recepção,GYN,1,2027-06-23,250,Em dia
+GYN-EXT-004,Extintor água pressurizada 10 L,Extintor,Doca de expedição,GYN,1,2026-10-02,-14,Vencido
+GYN-EXT-005,Extintor água pressurizada 10 L,Extintor,Doca de expedição,GYN,1,2026-12-18,63,31 a 90 dias
+GYN-HID-001,Mangueira de hidrante 15 m,Hidrante,Oficina de manutenção,GYN,1,2026-12-08,53,31 a 90 dias
+GYN-EPI-001,Máscara PFF2 (lote),EPI,Bloco A – térreo,GYN,290,2027-09-21,340,Em dia
+GYN-EPI-002,Luva nitrílica (lote),EPI,Bloco B – operação,GYN,150,2026-08-29,-48,Vencido
+GYN-EPI-003,Protetor auricular tipo plug (lote),EPI,Bloco B – operação,GYN,50,2027-04-05,171,Em dia
+GYN-EPI-004,Capacete de segurança classe B,EPI,Almoxarifado,GYN,160,2027-01-12,88,31 a 90 dias
+GYN-EPI-005,Óculos de proteção incolor (lote),EPI,Bloco A – térreo,GYN,340,2027-11-20,400,Em dia
+GYN-EPI-006,Cinto paraquedista com talabarte,EPI,Bloco B – operação,GYN,340,2026-11-10,25,Até 30 dias
+GYN-KIT-001,Kit de primeiros socorros,Kit,Doca de expedição,GYN,4,2026-12-08,53,31 a 90 dias
+GYN-KIT-002,Kit de contenção de derramamento,Kit,Refeitório,GYN,1,2026-08-09,-68,Vencido
+GYN-EMG-001,Eletrodos do desfibrilador (DEA),Emergência,Sala de servidores,GYN,1,2026-10-04,-12,Vencido
+GYN-EMG-002,Luminária de emergência (bateria),Emergência,Oficina de manutenção,GYN,1,2027-07-15,272,Em dia
+BH-EXT-001,Extintor PQS ABC 6 kg,Extintor,Sala de servidores,BH,1,2027-05-05,201,Em dia
+BH-EXT-002,Extintor PQS ABC 6 kg,Extintor,Refeitório,BH,1,2027-02-10,117,Em dia
+BH-EXT-003,Extintor PQS ABC 6 kg,Extintor,Bloco A – térreo,BH,1,2027-06-29,256,Em dia
+BH-EXT-004,Extintor CO₂ 6 kg,Extintor,Bloco A – térreo,BH,1,2027-09-11,330,Em dia
+BH-EXT-005,Extintor água pressurizada 10 L,Extintor,Recepção,BH,1,2026-08-30,-47,Vencido
+BH-EXT-006,Extintor água pressurizada 10 L,Extintor,Refeitório,BH,1,2027-02-18,125,Em dia
+BH-HID-001,Mangueira de hidrante 15 m,Hidrante,Sala de servidores,BH,1,2027-02-28,135,Em dia
+BH-EPI-001,Máscara PFF2 (lote),EPI,Recepção,BH,330,2027-07-09,266,Em dia
+BH-EPI-002,Luva nitrílica (lote),EPI,Doca de expedição,BH,390,2026-08-10,-67,Vencido
+BH-EPI-003,Protetor auricular tipo plug (lote),EPI,Bloco A – térreo,BH,250,2027-03-03,138,Em dia
+BH-EPI-004,Capacete de segurança classe B,EPI,Almoxarifado,BH,110,2029-01-31,838,Em dia
+BH-EPI-005,Óculos de proteção incolor (lote),EPI,Bloco A – térreo,BH,210,2027-10-27,376,Em dia
+BH-EPI-006,Cinto paraquedista com talabarte,EPI,Doca de expedição,BH,150,2027-02-10,117,Em dia
+BH-KIT-001,Kit de primeiros socorros,Kit,Bloco B – operação,BH,1,2026-10-29,13,Até 30 dias
+BH-KIT-002,Kit de contenção de derramamento,Kit,Recepção,BH,4,2026-11-06,21,Até 30 dias
+BH-EMG-001,Eletrodos do desfibrilador (DEA),Emergência,Bloco A – térreo,BH,1,2026-11-05,20,Até 30 dias
+BH-EMG-002,Luminária de emergência (bateria),Emergência,Almoxarifado,BH,1,2026-12-27,72,31 a 90 dias

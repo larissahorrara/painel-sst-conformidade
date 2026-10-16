@@ -1,0 +1,12 @@
+{
+  "name": "painel-sst-conformidade",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Painel de Saúde e Segurança do Trabalho (SST) e conformidade, com base de dados em modelo estrela. Dados fictícios.",
+  "scripts": {
+    "dados": "node scripts/extrair_dados.js"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}

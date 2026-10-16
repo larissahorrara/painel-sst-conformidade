@@ -1,0 +1,21 @@
+id_unidade,funcao,exigido,existente,deficit
+BSB,Técnico de Segurança do Trabalho,2,2,0
+BSB,Engenheiro de Segurança do Trabalho,1,1,0
+BSB,Aux./Téc. de Enfermagem do Trabalho,1,1,0
+BSB,Enfermeiro do Trabalho,0,0,0
+BSB,Médico do Trabalho,1,1,0
+SP,Técnico de Segurança do Trabalho,4,4,0
+SP,Engenheiro de Segurança do Trabalho,1,1,0
+SP,Aux./Téc. de Enfermagem do Trabalho,1,1,0
+SP,Enfermeiro do Trabalho,1,1,0
+SP,Médico do Trabalho,1,1,0
+GYN,Técnico de Segurança do Trabalho,2,2,0
+GYN,Engenheiro de Segurança do Trabalho,1,0,1
+GYN,Aux./Téc. de Enfermagem do Trabalho,0,0,0
+GYN,Enfermeiro do Trabalho,0,0,0
+GYN,Médico do Trabalho,1,1,0
+BH,Técnico de Segurança do Trabalho,3,2,1
+BH,Engenheiro de Segurança do Trabalho,1,1,0
+BH,Aux./Téc. de Enfermagem do Trabalho,1,0,1
+BH,Enfermeiro do Trabalho,0,0,0
+BH,Médico do Trabalho,1,1,0

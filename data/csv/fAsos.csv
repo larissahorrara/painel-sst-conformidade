@@ -1,0 +1,21 @@
+id_unidade,tipo_aso,no_prazo,fora_do_prazo,total
+BSB,Admissional,82,1,83
+BSB,Periódico,753,26,779
+BSB,Retorno ao trabalho,24,1,25
+BSB,Mudança de risco,16,0,16
+BSB,Demissional,74,1,75
+SP,Admissional,134,5,139
+SP,Periódico,1043,50,1093
+SP,Retorno ao trabalho,34,1,35
+SP,Mudança de risco,22,1,23
+SP,Demissional,122,4,126
+GYN,Admissional,57,2,59
+GYN,Periódico,350,40,390
+GYN,Retorno ao trabalho,11,1,12
+GYN,Mudança de risco,8,0,8
+GYN,Demissional,52,1,53
+BH,Admissional,74,3,77
+BH,Periódico,479,53,532
+BH,Retorno ao trabalho,16,1,17
+BH,Mudança de risco,10,1,11
+BH,Demissional,66,4,70
