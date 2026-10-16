@@ -585,10 +585,6 @@ Prazos de envio e requisitos legais devem ser conferidos nas versões oficiais v
 
 As mudanças de cada versão estão em [CHANGELOG.md](CHANGELOG.md).
 
-## Como contribuir
-
-Sugestões e correções são bem-vindas. Veja [CONTRIBUTING.md](CONTRIBUTING.md) e use os formulários da aba **Issues** para relatar erros ou propor melhorias.
-
 ## Autoria
 
 Projeto desenvolvido por **Larissa Almeida** ([@larissahorrara](https://github.com/larissahorrara)).
