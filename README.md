@@ -11,14 +11,19 @@
   <img alt="TypeScript 5.4" src="https://img.shields.io/badge/TypeScript-5.4-3178C6">
   <img alt="Chart.js 4.4" src="https://img.shields.io/badge/Chart.js-4.4-FF6384">
   <img alt="Power BI: modelo estrela e DAX" src="https://img.shields.io/badge/Power%20BI-modelo%20estrela%20%2B%20DAX-F2C811">
+  <img alt="Python 3" src="https://img.shields.io/badge/Python-3-3776AB">
+  <img alt="Plotly" src="https://img.shields.io/badge/Plotly-gr%C3%A1ficos-3F4F75">
+  <img alt="Google Colab" src="https://img.shields.io/badge/Google%20Colab-notebook-F9AB00">
 </p>
 
 <p align="center">
   <a href="https://larissahorrara.github.io/painel-sst-conformidade/"><img alt="Abrir o painel interativo" src="https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20painel%20interativo-1E3A5F?style=for-the-badge"></a>
+  <a href="https://colab.research.google.com/github/larissahorrara/painel-sst-conformidade/blob/main/python/painel_sst_colab.ipynb"><img alt="Abrir a versão Python no Google Colab" src="https://img.shields.io/badge/%E2%96%B6%20Vers%C3%A3o%20Python%20no%20Colab-F9AB00?style=for-the-badge"></a>
 </p>
 
 <p align="center">
   <a href="https://larissahorrara.github.io/painel-sst-conformidade/"><strong>Abrir o painel</strong></a> ·
+  <a href="#16-versão-2-painel-em-python-google-colab">Versão Python</a> ·
   <a href="data/">Base de dados</a> ·
   <a href="#5-insights-da-análise">Insights</a> ·
   <a href="#7-medidas-para-o-power-bi-dax">Medidas DAX</a> ·
@@ -27,12 +32,15 @@
 
 Relatório gerencial interativo de **Saúde e Segurança do Trabalho (SST)**: gestão de riscos, prontidão para emergências, engenharia e medicina do trabalho, governança normativa e impacto da cultura de segurança em selos e certificações (GPTW, ISO 45001 e ESG).
 
-O projeto tem duas peças que se correspondem:
+O projeto tem duas versões do painel e uma base de dados:
 
-- **`index.html`**: o relatório, em um único arquivo HTML, com a linguagem visual de um relatório Power BI.
-- **`data/`**: a base de dados por trás do relatório, em modelo estrela, pronta para importar no Power BI ou usar no Excel.
+- **Versão 1 – `index.html`**: o relatório, em um único arquivo HTML, com a linguagem visual de um relatório Power BI.
+- **Versão 2 – `python/`**: o painel reconstruído em Python, em um notebook do Google Colab que gera os dados, calcula os indicadores, monta os gráficos com Plotly e exporta um painel em HTML que funciona sem internet.
+- **`data/`**: a base de dados por trás do relatório da versão 1, em modelo estrela, pronta para importar no Power BI ou usar no Excel.
 
-> **Todos os nomes, unidades e números são fictícios** e foram gerados para demonstração. Nenhum dado se refere a pessoas ou empresas reais. Os insights da seção 5 mostram o tipo de leitura que o painel permite; não descrevem uma organização real.
+As seções 1 a 15 descrevem a versão 1. A versão 2 está documentada na [seção 16](#16-versão-2-painel-em-python-google-colab).
+
+> **Todos os nomes, unidades e números são fictícios** e foram gerados para demonstração, nas duas versões. Nenhum dado se refere a pessoas ou empresas reais. Os insights da seção 5 mostram o tipo de leitura que o painel permite; não descrevem uma organização real.
 
 ---
 
@@ -53,6 +61,7 @@ O projeto tem duas peças que se correspondem:
 13. [Glossário](#13-glossário)
 14. [Limitações e cuidados](#14-limitações-e-cuidados)
 15. [Histórico de versões](#15-histórico-de-versões)
+16. [Versão 2: painel em Python (Google Colab)](#16-versão-2-painel-em-python-google-colab)
 
 ---
 
@@ -77,13 +86,17 @@ O painel reúne em um só lugar os indicadores que costumam ficar espalhados ent
 
 ```text
 painel-sst-conformidade/
-├── index.html                      # o painel (abre direto no navegador e no GitHub Pages)
+├── index.html                      # versão 1: o painel (abre direto no navegador e no GitHub Pages)
+├── python/
+│   ├── painel_sst_colab.ipynb      # versão 2: notebook do Google Colab
+│   ├── painel_sst.html             # painel gerado pelo notebook (funciona sem internet)
+│   └── base_sst.xlsx               # tabelas geradas pelo notebook
 ├── data/
 │   ├── base-dados-sst.xlsx         # base em modelo estrela, com conferência e dicionário
 │   ├── csv/                        # as mesmas 20 tabelas e o dicionário, uma por arquivo CSV
 │   └── dados.json                  # extração bruta da camada de dados do painel
 ├── docs/
-│   ├── img/                        # telas do relatório e imagem de pré-visualização social
+│   ├── img/                        # telas das duas versões e imagem de pré-visualização social
 │   └── configuracao-github.md      # passo a passo para publicar e marcar como template
 ├── scripts/
 │   ├── extrair_dados.js            # index.html → data/dados.json
@@ -112,6 +125,8 @@ Clique em qualquer tela para abrir a página correspondente no painel interativo
 | **Selos e certificações** | |
 | [![Selos e certificações](docs/img/6-selos-certificacoes.png)](https://larissahorrara.github.io/painel-sst-conformidade/#certificacoes) | |
 
+As telas da versão em Python estão na [seção 16](#16-versão-2-painel-em-python-google-colab).
+
 ## 3. Como abrir e usar o relatório
 
 1. Acesse o link **Abrir o painel**, no topo desta página, ou baixe o repositório e dê dois cliques em `index.html`. Ele abre em qualquer navegador atual (Chrome, Edge, Firefox ou Safari).
@@ -120,6 +135,8 @@ Clique em qualquer tela para abrir a página correspondente no painel interativo
    - Chart.js 4.4.1: gráficos.
    - TypeScript 5.4.5: compila o código do relatório no próprio navegador.
 3. A primeira carga leva alguns segundos, por causa da compilação do TypeScript. Depois disso, toda a navegação é local.
+
+Para abrir e usar a versão em Python, veja a [seção 16](#16-versão-2-painel-em-python-google-colab).
 
 ### Recursos da interface
 
@@ -580,10 +597,125 @@ Prazos de envio e requisitos legais devem ser conferidos nas versões oficiais v
 - **Selos e certificações.** Os critérios de elegibilidade são uma simulação interna.
 - **Dados pessoais.** Com dados reais, nomes de colaboradores e informações de saúde exigem cuidado com a LGPD. Os afastamentos devem continuar agregados, sem identificação individual nem CID.
 - **Foto da capa.** Se veio de banco de imagens, confirme a licença de uso antes de distribuir o relatório.
+- **Versões independentes.** A versão em Python gera um cenário próprio, com outra estrutura e outras metas. Os números das duas versões não são comparáveis entre si.
 
 ## 15. Histórico de versões
 
 As mudanças de cada versão estão em [CHANGELOG.md](CHANGELOG.md).
+
+## 16. Versão 2: painel em Python (Google Colab)
+
+A versão 2 reconstrói o painel em Python, dentro de um notebook do Google Colab. O próprio notebook gera os dados fictícios, calcula os indicadores com pandas e NumPy, monta os gráficos com Plotly e exporta o resultado como um painel em HTML com cinco abas. Cada etapa do código vem explicada no notebook, o que facilita estudar, adaptar e reproduzir a análise.
+
+<p>
+  <a href="https://colab.research.google.com/github/larissahorrara/painel-sst-conformidade/blob/main/python/painel_sst_colab.ipynb"><img alt="Abrir no Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+</p>
+
+[Abrir o painel gerado pela versão Python](https://larissahorrara.github.io/painel-sst-conformidade/python/painel_sst.html)
+
+### Telas da versão 2
+
+Clique em qualquer tela para abrir o painel gerado pela versão Python.
+
+| Visão geral | Riscos e brigada |
+|---|---|
+| [![Visão geral da versão Python](docs/img/python-1-visao-geral.png)](https://larissahorrara.github.io/painel-sst-conformidade/python/painel_sst.html) | [![Riscos e brigada da versão Python](docs/img/python-2-riscos-brigada.png)](https://larissahorrara.github.io/painel-sst-conformidade/python/painel_sst.html) |
+| **Governança** | **Percepção** |
+| [![Governança da versão Python](docs/img/python-3-governanca.png)](https://larissahorrara.github.io/painel-sst-conformidade/python/painel_sst.html) | [![Percepção da versão Python](docs/img/python-4-percepcao.png)](https://larissahorrara.github.io/painel-sst-conformidade/python/painel_sst.html) |
+| **Selos e certificações** | |
+| [![Selos e certificações da versão Python](docs/img/python-5-selos.png)](https://larissahorrara.github.io/painel-sst-conformidade/python/painel_sst.html) | |
+
+### 16.1 Como executar
+
+**No Google Colab (recomendado)**
+
+1. Clique no botão **Abrir no Colab**, acima.
+2. No menu, escolha **Ambiente de execução › Executar tudo**. O notebook fica salvo sem resultados, por isso os gráficos só aparecem depois da execução.
+3. Acompanhe a prévia do painel, com as abas funcionando, no próprio notebook (Etapa 15).
+4. Ao final, o Colab baixa o painel (`painel_sst.html`) e a base de dados (`base_sst.xlsx`). Se o navegador perguntar, permita vários downloads.
+
+**No computador**
+
+```bash
+pip install pandas numpy plotly openpyxl jupyter
+jupyter notebook python/painel_sst_colab.ipynb
+```
+
+Fora do Colab, os arquivos gerados ficam na mesma pasta do notebook.
+
+### 16.2 O que o notebook gera
+
+| Arquivo | Conteúdo |
+|---|---|
+| `painel_sst.html` | Painel completo com cinco abas, em um único arquivo de cerca de 5 MB. Funciona sem internet, porque a biblioteca de gráficos vai embutida. Ao imprimir (Ctrl + P), sai como relatório com todas as abas em sequência. |
+| `base_sst.xlsx` | Doze planilhas: `colaboradores`, `horas_trabalhadas`, `acidentes`, `tf_tg_mensal`, `riscos_nr1`, `brigada`, `equipamentos`, `documentos_legais`, `pops_pae`, `pesquisa_respostas`, `pesquisa_resumo` e `selos_certificacoes`. |
+
+### 16.3 Abas do painel
+
+| Nº | Aba | Principais visuais |
+|---|---|---|
+| 1 | **Visão Geral** | Cards de Taxa de Frequência, Taxa de Gravidade, Conformidade NR-1 e Satisfação em SST, com meta, comparação com o período anterior e minigráfico de tendência; alertas ordenados por gravidade; TF e TG acumuladas em 12 meses; acidentes por mês; TF por setor |
+| 2 | **Riscos e Brigada** | Matriz de risco 5×5; maior nível de risco por setor e categoria; riscos altos e críticos sem plano de ação; cobertura da brigada por prédio e turno; validade dos equipamentos de segurança |
+| 3 | **Governança** | Linha do tempo de vigência dos documentos legais (PGR, PCMSO, LTCAT, AET, prontuário elétrico e projeto de incêndio); quadro do fluxo de revisão dos POPs e PAE por etapa |
+| 4 | **Percepção** | Resumo do ciclo; percepção em escala de concordância por dimensão; participação na pesquisa; evolução do percentual favorável por dimensão; mapa por setor e dimensão |
+| 5 | **Selos e Certificações** | Situação de GPTW, ISO 45001 e ESG; Tabela de Alerta Vermelho com plano de mitigação; atingimento da meta por indicador |
+
+No topo de cada aba, uma **Leitura rápida** resume em uma frase o principal achado, gerada automaticamente a partir dos dados.
+
+### 16.4 Etapas do notebook
+
+| Etapa | O que faz |
+|---|---|
+| 1 | Prepara o ambiente e importa as bibliotecas |
+| 2 | Define os parâmetros: data de referência, setores, prédios, turnos, efetivo, metas e semente |
+| 3 | Gera a base de colaboradores e o vencimento dos ASOs periódicos |
+| 4 | Gera 24 meses de horas trabalhadas e acidentes e calcula TF e TG |
+| 5 | Monta o inventário de riscos da NR-1 com a matriz 5×5 |
+| 6 | Gera a brigada de incêndio e verifica a cobertura por prédio e turno |
+| 7 | Gera o inventário de equipamentos e as faixas de vencimento |
+| 8 | Registra a vigência dos documentos legais e o status dos POPs e PAE |
+| 9 | Simula quatro ciclos trimestrais da pesquisa de percepção |
+| 10 | Cruza os indicadores com os critérios de GPTW, ISO 45001 e ESG |
+| 11 | Aplica a identidade visual a todos os gráficos |
+| 12 | Prepara os cards, os alertas e a leitura rápida de cada aba |
+| 13 | Cria os gráficos |
+| 14 | Monta o painel em HTML |
+| 15 | Mostra a prévia do painel no Colab |
+| 16 | Exporta o Excel e baixa os arquivos |
+| 17 | Salva os arquivos no Google Drive (opcional) |
+
+### 16.5 Regras de negócio da versão 2
+
+- **Taxas.** TF e TG seguem a ABNT NBR 14280 e são exibidas como acumulado móvel de 12 meses, comparado aos 12 meses anteriores.
+- **Matriz de risco.** Nível = probabilidade × severidade, de 1 a 25: Baixo (1 a 4), Moderado (5 a 9), Alto (10 a 16) e Crítico (17 a 25).
+- **Conformidade NR-1.** Percentual de riscos com plano de ação concluído ou em andamento.
+- **Prazos.** Vencido (abaixo de 0 dia), vence em até 30 dias, vence em 31 a 60 dias e em dia (acima de 60 dias). Vale para ASO, brigada, equipamentos e documentos.
+- **Brigada.** Reciclagem anual e mínimo de 3 brigadistas válidos por prédio e turno.
+- **Fluxos parados.** POP ou PAE há mais de 60 dias na mesma etapa, exceto os vigentes.
+- **Pesquisa.** Escala de 1 a 5; respostas 4 e 5 contam como favoráveis.
+- **Situação dos indicadores.** OK quando a meta é atingida; Atenção quando fica até 10% distante; Alerta Vermelho quando a distância passa de 10%.
+- **Situação dos selos.** "Em risco" se houver ao menos um indicador em alerta vermelho; "Atenção" se houver indicador em atenção; "Pronto" se todos estiverem na meta.
+- **Metas padrão.** TF até 12; TG até 400; conformidade NR-1, 90%; brigada e equipamentos dentro da validade, 95%; documentos vigentes, 100%; participação na pesquisa, 75%; respostas favoráveis, 70%; ASO em dia, 95%; POPs e PAE vigentes, 85%.
+
+Todas as metas e parâmetros ficam na Etapa 2 do notebook e podem ser alterados antes de executar.
+
+### 16.6 Comparativo entre as versões
+
+| Aspecto | Versão 1 (HTML) | Versão 2 (Python) |
+|---|---|---|
+| Tecnologia | TypeScript, Chart.js e Tailwind CSS | Python, pandas, NumPy e Plotly |
+| Onde roda | Navegador e GitHub Pages | Google Colab ou Jupyter |
+| Estrutura dos dados | Quatro unidades, seis setores, modelo estrela | Uma empresa com seis setores, três prédios e três turnos, em tabelas planas |
+| Páginas | 7, com engenharia e medicina do trabalho | 5 abas |
+| Interatividade | Segmentações, filtros, filtragem cruzada e zoom | Dicas ao passar o mouse, zoom nos gráficos e navegação por abas |
+| Internet | Necessária na abertura | Painel exportado funciona sem internet |
+| Base de dados | `data/base-dados-sst.xlsx`, com 20 tabelas | `base_sst.xlsx`, com 12 planilhas, gerada a cada execução |
+
+### 16.7 Como adaptar
+
+- **Outro cenário.** Troque o valor de `SEMENTE` na Etapa 2 e execute tudo novamente.
+- **Outras metas.** Altere o dicionário `METAS` na Etapa 2.
+- **Dados reais.** Substitua a geração fictícia das Etapas 3 a 9 pela leitura das suas planilhas (por exemplo, com `pd.read_excel`), mantendo os nomes das colunas usados no notebook. As etapas de indicadores, gráficos e montagem do painel não precisam mudar.
 
 ## Autoria
 
