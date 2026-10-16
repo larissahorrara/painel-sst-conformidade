@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/img/social-preview.png" alt="Capa do Painel de SST e Conformidade: título, quatro indicadores de destaque e foto de inspeção de extintor" width="100%">
+  <a href="https://larissahorrara.github.io/painel-sst-conformidade/"><img src="docs/img/social-preview.png" alt="Capa do Painel de SST e Conformidade: título, quatro indicadores de destaque e foto de inspeção de extintor. Clique para abrir o painel interativo." width="100%"></a>
 </p>
 
 <h1 align="center">Painel de SST e Conformidade</h1>
@@ -11,6 +11,10 @@
   <img alt="TypeScript 5.4" src="https://img.shields.io/badge/TypeScript-5.4-3178C6">
   <img alt="Chart.js 4.4" src="https://img.shields.io/badge/Chart.js-4.4-FF6384">
   <img alt="Power BI: modelo estrela e DAX" src="https://img.shields.io/badge/Power%20BI-modelo%20estrela%20%2B%20DAX-F2C811">
+</p>
+
+<p align="center">
+  <a href="https://larissahorrara.github.io/painel-sst-conformidade/"><img alt="Abrir o painel interativo" src="https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20painel%20interativo-1E3A5F?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -96,15 +100,17 @@ painel-sst-conformidade/
 
 ### Telas
 
+Clique em qualquer tela para abrir a página correspondente no painel interativo.
+
 | Capa | Visão geral |
 |---|---|
-| ![Capa do relatório](docs/img/0-capa.png) | ![Visão geral](docs/img/1-visao-geral.png) |
+| [![Capa do relatório](docs/img/0-capa.png)](https://larissahorrara.github.io/painel-sst-conformidade/#capa) | [![Visão geral](docs/img/1-visao-geral.png)](https://larissahorrara.github.io/painel-sst-conformidade/#visao) |
 | **Riscos, brigada e equipamentos** | **Engenharia e Medicina do Trabalho** |
-| ![Riscos, brigada e equipamentos](docs/img/2-riscos-brigada-equipamentos.png) | ![Engenharia e Medicina do Trabalho](docs/img/3-engenharia-medicina-trabalho.png) |
+| [![Riscos, brigada e equipamentos](docs/img/2-riscos-brigada-equipamentos.png)](https://larissahorrara.github.io/painel-sst-conformidade/#riscos) | [![Engenharia e Medicina do Trabalho](docs/img/3-engenharia-medicina-trabalho.png)](https://larissahorrara.github.io/painel-sst-conformidade/#medicina) |
 | **Governança e fluxos normativos** | **Pesquisa de percepção** |
-| ![Governança e fluxos normativos](docs/img/4-governanca-fluxos.png) | ![Pesquisa de percepção](docs/img/5-pesquisa-percepcao.png) |
+| [![Governança e fluxos normativos](docs/img/4-governanca-fluxos.png)](https://larissahorrara.github.io/painel-sst-conformidade/#governanca) | [![Pesquisa de percepção](docs/img/5-pesquisa-percepcao.png)](https://larissahorrara.github.io/painel-sst-conformidade/#percepcao) |
 | **Selos e certificações** | |
-| ![Selos e certificações](docs/img/6-selos-certificacoes.png) | |
+| [![Selos e certificações](docs/img/6-selos-certificacoes.png)](https://larissahorrara.github.io/painel-sst-conformidade/#certificacoes) | |
 
 ## 3. Como abrir e usar o relatório
 
